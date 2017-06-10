@@ -1,0 +1,5388 @@
+{
+    "users": {
+        "-Kl5ysCvFXV1iVFA07LU": {
+            "uid": "nYkRIyHfvtamuPGic4jlL01eAeK2",
+            "username": "Apple",
+            "activeChar": "char0",
+            "activeSpellbook": "spellbook0"
+        },
+        "-Kl5z08tMyxZWcBHrhXC": {
+            "uid": "2D5guyqPBgadH2kmcipbg8RyHr23",
+            "username": "Bubble",
+            "activeChar": "char1",
+            "activeSpellbook": "spellbook1"
+        }
+    },
+    "characters": {
+        "char0": {
+            "uid": "nYkRIyHfvtamuPGic4jlL01eAeK2",
+            "charName": "Aden",
+            "primaryClass": "Wizard",
+            "primaryClassLvl": 7,
+            "secondaryClass": "",
+            "secondaryClassLvl": 0,
+            "tertiaryClass": "",
+            "tertiaryClassLvl": 0,
+            "str": 10,
+            "con": 14,
+            "dex": 12,
+            "int": 20,
+            "wis": 10,
+            "cha": 10,
+            "spellDCBonus": 0,
+            "profBonus": 0,
+            "imgUrl" : ""
+        },
+        "char1": {
+            "uid": "2D5guyqPBgadH2kmcipbg8RyHr23",
+            "charName": "Boris",
+            "primaryClass": "Wizard",
+            "primaryClassLvl": 14,
+            "secondaryClass": "",
+            "secondaryClassLvl": 0,
+            "tertiaryClass": "",
+            "tertiaryClassLvl": 0,
+            "str": 8,
+            "con": 12,
+            "dex": 16,
+            "int": 16,
+            "wis": 12,
+            "cha": 10,
+            "spellDCBonus": 0,
+            "profBonus": 0,
+            "imgUrl" : ""
+        }
+    },
+    "spellbooks": {
+        "spellbook0": {
+            "charid": "char0",
+            "uid": "nYkRIyHfvtamuPGic4jlL01eAeK2",
+            "class": "Wizard",
+            "lvl1Rem": 4,
+            "lvl2Rem": 3,
+            "lvl3Rem": 3,
+            "lvl4Rem": 1,
+            "lvl5Rem": 0,
+            "lvl6Rem": 0,
+            "lvl7Rem": 0,
+            "lvl8Rem": 0,
+            "lvl9Rem": 0
+        },
+        "spellbook1": {
+            "charid": "char1",
+            "uid": "2D5guyqPBgadH2kmcipbg8RyHr23",
+            "class": "Wizard",
+            "lvl1Rem": 4,
+            "lvl2Rem": 3,
+            "lvl3Rem": 3,
+            "lvl4Rem": 3,
+            "lvl5Rem": 2,
+            "lvl6Rem": 1,
+            "lvl7Rem": 1,
+            "lvl8Rem": 0,
+            "lvl9Rem": 0
+        }
+    },
+    "spellsKnown": {
+        "spell0": {
+            "sbid": "",
+            "name": "",
+            "level": 0,
+            "school": "",
+            "url": "",
+            "prepared": false,
+            "index": 1
+        },
+        "spell1": {
+            "sbid": "",
+            "name": "",
+            "level": 0,
+            "school": "",
+            "url": "",
+            "prepared": false,
+            "index": 2
+        }
+    },
+    "spellIndex": {
+        "-KmHeVShcoXiWSbqnjMi": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Acid Arrow",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/1"
+        },
+        "-KmHeVSk_xKcLee9A8eq": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVStOyNtuwRA6Uua": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVSyXWr-OWgYsGVC": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVT133t-H1CjuRZ3": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVTBZHKUicSx286o": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVTF1cV4h__Y1v6F": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Locate Object",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/173"
+        },
+        "-KmHeVTLE9wHLQhSQeGm": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Longstrider",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/174"
+        },
+        "-KmHeVTV3CbTYNKsHd3t": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Longstrider",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/174"
+        },
+        "-KmHeVTXXUPDkE_h-ydT": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Longstrider",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/174"
+        },
+        "-KmHeVTZxZA_K9bDoRo7": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Longstrider",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/174"
+        },
+        "-KmHeVTnm87_BhaUsE6K": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Mage Armor",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/175"
+        },
+        "-KmHeVToK2xB-w2UfpUO": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Mage Armor",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/175"
+        },
+        "-KmHeVTvKX53qtyCu4La": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Mage Hand",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/176"
+        },
+        "-KmHeVU1xpyjm_YEhLES": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Mage Hand",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/176"
+        },
+        "-KmHeVUKd77Bs_k4hxha": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "Mage Hand",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/176"
+        },
+        "-KmHeVUNpu8Aax-3Yef8": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Mage Hand",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/176"
+        },
+        "-KmHeVUX8aOs7-otjFdU": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Magic Circle",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/177"
+        },
+        "-KmHeVUbtSnvlf_e731W": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Magic Circle",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/177"
+        },
+        "-KmHeVUqp0VreOBAmVsh": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Magic Circle",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/177"
+        },
+        "-KmHeVUqp0VreOBAmVsi": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Magic Circle",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/177"
+        },
+        "-KmHeVV6e8dyOryzQrwb": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Magic Jar",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/178"
+        },
+        "-KmHeVVChN4UFMzgBg_4": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Magic Missile",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/179"
+        },
+        "-KmHeVVNkfpnuKHSCtfh": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Magic Missile",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/179"
+        },
+        "-KmHeVVSpJHuk_rPlJuE": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Magic Mouth",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/180"
+        },
+        "-KmHeVVg4SyqhTI9mU-w": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Magic Mouth",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/180"
+        },
+        "-KmHeVVrekmuXTSK4iKl": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Magic Weapon",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/181"
+        },
+        "-KmHeVVvxA-smXbm9ziP": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Magic Weapon",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/181"
+        },
+        "-KmHeVVySkDGzs-jAp66": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Magnificent Mansion",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/182"
+        },
+        "-KmHeVWOlrRNnpEmrLzT": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Magnificent Mansion",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/182"
+        },
+        "-KmHeVWSYf3a980d22S5": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Major Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/183"
+        },
+        "-KmHeVWUXZRhv3VuJxs4": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Major Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/183"
+        },
+        "-KmHeVW_7riKLXKYFGy0": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Major Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/183"
+        },
+        "-KmHeVWydSAOuMP0dO2x": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Major Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/183"
+        },
+        "-KmHeVX1MbTVpo9KD2n8": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Animal Messenger",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/6"
+        },
+        "-KmHeVX1MbTVpo9KD2n9": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Animal Messenger",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/6"
+        },
+        "-KmHeVX429k4rcpmtyUB": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Acid Splash",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/2"
+        },
+        "-KmHeVXXBwGL7eYpIQd0": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Mass Cure Wounds",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/184"
+        },
+        "-KmHeVX_AV6ZwQxhtH9J": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Mass Cure Wounds",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/184"
+        },
+        "-KmHeVXdMIe9Wc533nNV": {
+            "class": "Cleric",
+            "level": 9,
+            "name": "Mass Heal",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/185"
+        },
+        "-KmHeVXeWtMz49svzKpz": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Mass Cure Wounds",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/184"
+        },
+        "-KmHeVY5rkaMWtD50tQj": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Acid Splash",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/2"
+        },
+        "-KmHeVY9ETgexliW_WV6": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Mass Healing Word",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/186"
+        },
+        "-KmHeVYAlwKxAkPU3axE": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Mass Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/187"
+        },
+        "-KmHeVYHXOULkifqbWNR": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Mass Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/187"
+        },
+        "-KmHeVYbiCUv3fpa_BS8": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Mass Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/187"
+        },
+        "-KmHeVYlheIzskLv3Lb2": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Meld into Stone",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/189"
+        },
+        "-KmHeVYmd_yz87OVi066": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Mass Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/187"
+        },
+        "-KmHeVYnl7RhazmlZfdv": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Maze",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/188"
+        },
+        "-KmHeVYoOeGZFsn2eeCU": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Mending",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/190"
+        },
+        "-KmHeVYpgZ-tvcEF7Gll": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Mending",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/190"
+        },
+        "-KmHeVZKopRlf1obp5IV": {
+            "class": "Druid",
+            "level": 0,
+            "name": "Mending",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/190"
+        },
+        "-KmHeVZLasgsQFRHWrtb": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Mending",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/190"
+        },
+        "-KmHeVZNl9rRYydQO6Y2": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Mending",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/190"
+        },
+        "-KmHeVZRCgxWRWSeKDZf": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Message",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/191"
+        },
+        "-KmHeVZVyADcfuO76w3b": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Message",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/191"
+        },
+        "-KmHeVZW4USFy2kGi-CQ": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Message",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/191"
+        },
+        "-KmHeVZue6ywlYqE2wvN": {
+            "class": "Sorcerer",
+            "level": 9,
+            "name": "Meteor Swarm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/192"
+        },
+        "-KmHeVZzNMJvr4MAORzp": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Meteor Swarm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/192"
+        },
+        "-KmHeV_-nJK8Gm9CAjB3": {
+            "class": "Bard",
+            "level": 8,
+            "name": "Mind Blank",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/193"
+        },
+        "-KmHeV_0sXZmap8ZwIZr": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Mind Blank",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/193"
+        },
+        "-KmHeV_8eppa32qq4cTi": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Minor Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/194"
+        },
+        "-KmHeV_U62839ItixUV_": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Minor Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/194"
+        },
+        "-KmHeV_Zqz_agQNd6UXy": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "Minor Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/194"
+        },
+        "-KmHeV__6U8D_yPHrt2-": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Minor Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/194"
+        },
+        "-KmHeV_e1e02UFCuNYgk": {
+            "class": "Druid",
+            "level": 7,
+            "name": "Mirage Arcane",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/195"
+        },
+        "-KmHeV_g7_SVxKpqNWkq": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Mirage Arcane",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/195"
+        },
+        "-KmHeVa1GycYqoNmulqz": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Mirage Arcane",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/195"
+        },
+        "-KmHeVa3yysd5TKoqSyC": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Mislead",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/197"
+        },
+        "-KmHeVaHOcVtW06hMjo3": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Mislead",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/197"
+        },
+        "-KmHeVaLD-RdQ_q8fcsG": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Misty Step",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/198"
+        },
+        "-KmHeVabTd6r9GRJz_Ly": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Misty Step",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/198"
+        },
+        "-KmHeVabTd6r9GRJz_Lz": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Misty Step",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/198"
+        },
+        "-KmHeVarYodKDWTP6sfx": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Modify Memory",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/199"
+        },
+        "-KmHeVasAvaGXyiV5itv": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Modify Memory",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/199"
+        },
+        "-KmHeVb6iRjw50qnVJls": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Mirror Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/196"
+        },
+        "-KmHeVbIoYeszQnBejRO": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Mirror Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/196"
+        },
+        "-KmHeVbRdkPE-Ic7ch3X": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Mirror Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/196"
+        },
+        "-KmHeVbWwnMsLMv3723q": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Moonbeam",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/200"
+        },
+        "-KmHeVbffQjf-6zS48sm": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Move Earth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/201"
+        },
+        "-KmHeVbxLlHKiPcBtMPR": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Move Earth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/201"
+        },
+        "-KmHeVbzJ1i1ZLZMdFaI": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Move Earth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/201"
+        },
+        "-KmHeVc4MQs6P3qjRd_o": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Nondetection",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/202"
+        },
+        "-KmHeVcCnoLbTrA4r-3h": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Nondetection",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/202"
+        },
+        "-KmHeVcb4k8-Z9wUZCCY": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Nondetection",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/202"
+        },
+        "-KmHeVcoqN8yVWL6RtxH": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Pass without Trace",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/203"
+        },
+        "-KmHeVcy1F1bMw05dWbc": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Pass without Trace",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/203"
+        },
+        "-KmHeVd-WGzinTYVOIN7": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Phantom Steed",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/206"
+        },
+        "-KmHeVd1-T1JV3ww0vur": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Passwall",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/204"
+        },
+        "-KmHeVdCSzrfndG-Q9pI": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Planar Ally",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/207"
+        },
+        "-KmHeVdLz5TeGxDR_9sY": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Planar Binding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/208"
+        },
+        "-KmHeVdVkJHQzhJyW2tD": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Planar Binding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/208"
+        },
+        "-KmHeVdadWiindPyvP44": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Planar Binding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/208"
+        },
+        "-KmHeVdcsc4loExOQbx1": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Planar Binding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/208"
+        },
+        "-KmHeVdpi9r5sYdBIZFN": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Phantasmal Killer",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/205"
+        },
+        "-KmHeVdrsBYRIA_yBZwo": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Plane Shift",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/209"
+        },
+        "-KmHeVe3Y7ZULAMxshQy": {
+            "class": "Druid",
+            "level": 7,
+            "name": "Plane Shift",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/209"
+        },
+        "-KmHeVe9i2qhxPqsbG_g": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Plane Shift",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/209"
+        },
+        "-KmHeVeCLrDWP87Rvwht": {
+            "class": "Warlock",
+            "level": 7,
+            "name": "Plane Shift",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/209"
+        },
+        "-KmHeVeOuU6HJPn81NJh": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Plane Shift",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/209"
+        },
+        "-KmHeVeQj-jK8TzUhg5o": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Plant Growth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/210"
+        },
+        "-KmHeVeaVglB_3fiC7so": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Plant Growth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/210"
+        },
+        "-KmHeVeiDCRoM0GEYi6C": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Plant Growth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/210"
+        },
+        "-KmHeVejYcvr2HITFIzO": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/211"
+        },
+        "-KmHeVeleYPiWJ02iQug": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/211"
+        },
+        "-KmHeVet2svB4UwCsNad": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/211"
+        },
+        "-KmHeVf3w_mk74RVek40": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/211"
+        },
+        "-KmHeVf9Egky-vQm5HNw": {
+            "class": "Bard",
+            "level": 9,
+            "name": "Power Word Kill",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/212"
+        },
+        "-KmHeVfKzQ2U_bE1x7fm": {
+            "class": "Sorcerer",
+            "level": 9,
+            "name": "Power Word Kill",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/212"
+        },
+        "-KmHeVfKzQ2U_bE1x7fn": {
+            "class": "Warlock",
+            "level": 9,
+            "name": "Power Word Kill",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/212"
+        },
+        "-KmHeVfZKJcLtuk5oDpc": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Power Word Kill",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/212"
+        },
+        "-KmHeVfdWvPbEQFp7LPo": {
+            "class": "Bard",
+            "level": 8,
+            "name": "Power Word Stun",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/213"
+        },
+        "-KmHeVflHlM2d4djmHIA": {
+            "class": "Sorcerer",
+            "level": 8,
+            "name": "Power Word Stun",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/213"
+        },
+        "-KmHeVfu-fjW9ALW_XzU": {
+            "class": "Warlock",
+            "level": 8,
+            "name": "Power Word Stun",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/213"
+        },
+        "-KmHeVfwWKfY8rOPSbhO": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Power Word Stun",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/213"
+        },
+        "-KmHeVg5u4hKr7GR_dle": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Prismatic Spray",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/216"
+        },
+        "-KmHeVgDFgSdROmajpkO": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Prismatic Spray",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/216"
+        },
+        "-KmHeVgT-HmLemkgHgwU": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Prayer of Healing",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/214"
+        },
+        "-KmHeVgVjl9AkoEQUPQc": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Prestidigitation",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/215"
+        },
+        "-KmHeVgaLHp7Vwr9_CBl": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Prestidigitation",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/215"
+        },
+        "-KmHeVgl9u4bH0zT3kcI": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "Prestidigitation",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/215"
+        },
+        "-KmHeVh2rzo_quHQzZzV": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Prestidigitation",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/215"
+        },
+        "-KmHeVhCsBb8Au7wbd3D": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Prismatic Wall",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/217"
+        },
+        "-KmHeVhHErZqlgMWLn9t": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Private Sanctum",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/218"
+        },
+        "-KmHeVhb3Sqxal-658cE": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Animal Messenger",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/6"
+        },
+        "-KmHeVhutvWJ8s_UEeNh": {
+            "class": "Druid",
+            "level": 0,
+            "name": "Produce Flame",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/219"
+        },
+        "-KmHeViBOycAYBi20Ykp": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Programmed Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/220"
+        },
+        "-KmHeViTHpewLQqm-mub": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Programmed Illusion",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/220"
+        },
+        "-KmHeVijLSjKZCtb5_wG": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Project Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/221"
+        },
+        "-KmHeVj4oHWUwdiLU_Ph": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Project Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/221"
+        },
+        "-KmHeVj8zuRyYlsR7Vj9": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Protection from Energy",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/222"
+        },
+        "-KmHeVjGp7Qi90lU0a07": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Protection from Energy",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/222"
+        },
+        "-KmHeVjdPAj8xsJjC7ST": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Protection from Energy",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/222"
+        },
+        "-KmHeVjk9BRBfFfU3jaf": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Protection from Energy",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/222"
+        },
+        "-KmHeVjmP5kYXux0a2IF": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Protection from Energy",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/222"
+        },
+        "-KmHeVkHSWbuBETVfuo7": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Protection from Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/223"
+        },
+        "-KmHeVkJmGHsIO00kzjQ": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Protection from Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/223"
+        },
+        "-KmHeVkOe9iiL-7gjMB7": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Protection from Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/223"
+        },
+        "-KmHeVkUB6uTU1YzvoGY": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Protection from Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/223"
+        },
+        "-KmHeVkp4who1DNoFPWu": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Protection from Poison",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/224"
+        },
+        "-KmHeVku79d2Awal4nqw": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Protection from Poison",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/224"
+        },
+        "-KmHeVkvn6xzQzYRep4E": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Protection from Poison",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/224"
+        },
+        "-KmHeVl06PBvVgbsuRO3": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Protection from Poison",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/224"
+        },
+        "-KmHeVlQ-yMD7-MqwkEf": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Purify Food and Drink",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/225"
+        },
+        "-KmHeVlQ-yMD7-MqwkEg": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Purify Food and Drink",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/225"
+        },
+        "-KmHeVl_CdjTstLluA_P": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Purify Food and Drink",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/225"
+        },
+        "-KmHeVl_CdjTstLluA_Q": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Raise Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/226"
+        },
+        "-KmHeVlbaHA7BYHTUpHL": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Raise Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/226"
+        },
+        "-KmHeVljM-yzDMIRwTBs": {
+            "class": "Paladin",
+            "level": 5,
+            "name": "Raise Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/226"
+        },
+        "-KmHeVlwB8An1eRPvpbG": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Ray of Enfeeblement",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/227"
+        },
+        "-KmHeVm1TaZ-ceQq4Ydg": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Ray of Enfeeblement",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/227"
+        },
+        "-KmHeVm7nd5ezrZnxKlr": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Ray of Frost",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/228"
+        },
+        "-KmHeVm8ytbZ2GJtqDN4": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Ray of Frost",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/228"
+        },
+        "-KmHeVm9vmquzi1IEBy7": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Regenerate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/229"
+        },
+        "-KmHeVmEhFxcJNuA7RRX": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Regenerate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/229"
+        },
+        "-KmHeVmTohPtoFcgtlDU": {
+            "class": "Druid",
+            "level": 7,
+            "name": "Regenerate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/229"
+        },
+        "-KmHeVmYoASJo2MI65yT": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Reincarnate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/230"
+        },
+        "-KmHeVmkGOxc4kLPvYzo": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Remove Curse",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/231"
+        },
+        "-KmHeVmoJsiOP0PW9pNc": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Remove Curse",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/231"
+        },
+        "-KmHeVmpVfAMVri5fJDz": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Remove Curse",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/231"
+        },
+        "-KmHeVn-m1MNjecfDAlC": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Remove Curse",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/231"
+        },
+        "-KmHeVn4IUX7C-Hsypmw": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Resilient Sphere",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/232"
+        },
+        "-KmHeVnKn0Lv2vfqWCAs": {
+            "class": "Druid",
+            "level": 0,
+            "name": "Resistance",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/233"
+        },
+        "-KmHeVnNvthv0nitIBIh": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Resurrection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/234"
+        },
+        "-KmHeVnOvTLF6dWynhej": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Resistance",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/233"
+        },
+        "-KmHeVn_GWGHjf2ihU1Q": {
+            "class": "Druid",
+            "level": 7,
+            "name": "Reverse Gravity",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/235"
+        },
+        "-KmHeVnbY2zSrgFR2jHM": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Resurrection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/234"
+        },
+        "-KmHeVndSAteIhIgsS0X": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Reverse Gravity",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/235"
+        },
+        "-KmHeVntArFoxStOTmFJ": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Revivify",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/236"
+        },
+        "-KmHeVnu-pjzIFgxiwP1": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Reverse Gravity",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/235"
+        },
+        "-KmHeVnzgb2yGktDTDRM": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Revivify",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/236"
+        },
+        "-KmHeVo55rSbFoAG46_-": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Rope Trick",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/237"
+        },
+        "-KmHeVoFfBpKaxXOlYeA": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Scorching Ray",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/240"
+        },
+        "-KmHeVoIa2v6eBzVN8_A": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Scorching Ray",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/240"
+        },
+        "-KmHeVon9C3q3ih0PJBq": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Sanctuary",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/239"
+        },
+        "-KmHeVooVv4Vy1v_Wel1": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Scrying",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/241"
+        },
+        "-KmHeVouDtpClwAnKsvm": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Scrying",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/241"
+        },
+        "-KmHeVp32-mKzJytOFY5": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Scrying",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/241"
+        },
+        "-KmHeVpMI-BCLpgBDlx7": {
+            "class": "Warlock",
+            "level": 5,
+            "name": "Scrying",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/241"
+        },
+        "-KmHeVpQuHzlkok80TlO": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Scrying",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/241"
+        },
+        "-KmHeVpZScFINpxREoAr": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Secret Chest",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/242"
+        },
+        "-KmHeVpoDq0PVkLs5Lwi": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Sacred Flame",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/238"
+        },
+        "-KmHeVpxABC2-1LiXoFK": {
+            "class": "Bard",
+            "level": 2,
+            "name": "See Invisibility",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/243"
+        },
+        "-KmHeVpzOzEzh5CYbKZb": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "See Invisibility",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/243"
+        },
+        "-KmHeVq0_v5y3plfX1pT": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "See Invisibility",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/243"
+        },
+        "-KmHeVqUIEFr04nCIUUx": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Seeming",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/244"
+        },
+        "-KmHeVqWUZoFG-J-PatZ": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Seeming",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/244"
+        },
+        "-KmHeVqXTXDsWYQMEPcj": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Seeming",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/244"
+        },
+        "-KmHeVqai4IZ_xJAjYlF": {
+            "class": "Druid",
+            "level": 9,
+            "name": "Shapechange",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/247"
+        },
+        "-KmHeVr1rtnGWH61JDtn": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Sequester",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/246"
+        },
+        "-KmHeVr6BQW6X059qjwO": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Shatter",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/248"
+        },
+        "-KmHeVrBlN4YIZWq611S": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Shapechange",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/247"
+        },
+        "-KmHeVrC0yra-73Co_J-": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Shatter",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/248"
+        },
+        "-KmHeVr_RKpIahbtunKU": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Shatter",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/248"
+        },
+        "-KmHeVrdDwJUqv8Z2yfg": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Shatter",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/248"
+        },
+        "-KmHeVrfDXYK0Hqx6aM5": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Shield of Faith",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/250"
+        },
+        "-KmHeVrhK_AZplltJw9q": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Shield of Faith",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/250"
+        },
+        "-KmHeVsBaw88NSxrKX31": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Shield",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/249"
+        },
+        "-KmHeVsFImKgb8TwsrHd": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Shield",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/249"
+        },
+        "-KmHeVsH_8z33EvxGgPt": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Shocking Grasp",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/252"
+        },
+        "-KmHeVsJHm8pR1ssY1Vx": {
+            "class": "Druid",
+            "level": 0,
+            "name": "Shillelagh",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/251"
+        },
+        "-KmHeVskNQ3QAYr62YRh": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Shocking Grasp",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/252"
+        },
+        "-KmHeVsqO4Kk6Q9hhdHB": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Silence",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/253"
+        },
+        "-KmHeVsqO4Kk6Q9hhdHC": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Silence",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/253"
+        },
+        "-KmHeVswZty1Efq5K7NR": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Silence",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/253"
+        },
+        "-KmHeVt37mv6x0XrmxZa": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Silent Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/254"
+        },
+        "-KmHeVtO0dM_mjMKE9Jg": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Silent Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/254"
+        },
+        "-KmHeVtQxrYoMQhzPBaR": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Simulacrum",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/255"
+        },
+        "-KmHeVtSwZ5vv1cNiSxH": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Sleep",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/256"
+        },
+        "-KmHeVtWq0ExTKNjFxTr": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Silent Image",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/254"
+        },
+        "-KmHeVtspT77byJOcBUP": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Sleep",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/256"
+        },
+        "-KmHeVu9nDqipmo4X9fq": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Sleet Storm",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/257"
+        },
+        "-KmHeVuBXlbdzSrO8iVH": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Sleet Storm",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/257"
+        },
+        "-KmHeVuBXlbdzSrO8iVI": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Sleep",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/256"
+        },
+        "-KmHeVuGKTPh4dVtzBTa": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Sleet Storm",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/257"
+        },
+        "-KmHeVuNTgSoCN28WU1I": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Slow",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/258"
+        },
+        "-KmHeVuNTgSoCN28WU1J": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Slow",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/258"
+        },
+        "-KmHeVueYyJSyKCxXNe0": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Speak with Animals",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/259"
+        },
+        "-KmHeVuh0UOcxxAt5OkZ": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Speak with Animals",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/259"
+        },
+        "-KmHeVukQ2ogZyhmjaZw": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Speak with Animals",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/259"
+        },
+        "-KmHeVunWUiXxtbvLNTs": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Speak with Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/260"
+        },
+        "-KmHeVuqEK7rD6ncnT46": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Speak with Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/260"
+        },
+        "-KmHeVuwq7cbPu0JiJKy": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Speak with Plants",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/261"
+        },
+        "-KmHeVvAvbfAEjP1vqVW": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Speak with Plants",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/261"
+        },
+        "-KmHeVvH0gja8HGGwSYy": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Speak with Plants",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/261"
+        },
+        "-KmHeVvH0gja8HGGwSYz": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Spider Climb",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/262"
+        },
+        "-KmHeVvO1foyOOpPQlK5": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Spider Climb",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/262"
+        },
+        "-KmHeVvSYE65CW9rMh3M": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Spike Growth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/263"
+        },
+        "-KmHeVvTwKmUHZzcKZ3r": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Spider Climb",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/262"
+        },
+        "-KmHeVvgnms3DQjQ-o3C": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Spike Growth",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/263"
+        },
+        "-KmHeVvnv_oI1xWZ-q6k": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Spirit Guardians",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/264"
+        },
+        "-KmHeVvr1XX6d9EfX9N-": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Spiritual Weapon",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/265"
+        },
+        "-KmHeVvxvt2b15GoKH0l": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Stinking Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/266"
+        },
+        "-KmHeVvzOYdxRYpxYtBk": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Stinking Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/266"
+        },
+        "-KmHeVw0Nm2TAkukBKQd": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Stinking Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/266"
+        },
+        "-KmHeVwDkb4n_broKHlt": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Stone Shape",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/267"
+        },
+        "-KmHeVwHtY3BmfN_OPFL": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Stone Shape",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/267"
+        },
+        "-KmHeVwQZhS4PJgxKRrq": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Stone Shape",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/267"
+        },
+        "-KmHeVwUgdwxWOQmrqcK": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Stoneskin",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/268"
+        },
+        "-KmHeVwViSJHx0F-qRG4": {
+            "class": "Ranger",
+            "level": 4,
+            "name": "Stoneskin",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/268"
+        },
+        "-KmHeVwYcKP2QFoSW3iI": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Stoneskin",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/268"
+        },
+        "-KmHeVwm0P5Nted5QK10": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Stoneskin",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/268"
+        },
+        "-KmHeVwm0P5Nted5QK11": {
+            "class": "Druid",
+            "level": 9,
+            "name": "Storm of Vengeance",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/269"
+        },
+        "-KmHeVwxJvT_s_AMcjUr": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/270"
+        },
+        "-KmHeVwySDBqi5ejhlmb": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/270"
+        },
+        "-KmHeVx3gapXATUpSpXg": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/270"
+        },
+        "-KmHeVx6Dy3OLZAnfX3o": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Suggestion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/270"
+        },
+        "-KmHeVxHovAAxngsW11k": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Sunburst",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/272"
+        },
+        "-KmHeVxK2LVdaSTd2ek2": {
+            "class": "Sorcerer",
+            "level": 8,
+            "name": "Sunburst",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/272"
+        },
+        "-KmHeVxV2fQzNnZNgUTq": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Sunburst",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/272"
+        },
+        "-KmHeVx_zP0-fpA9pgcf": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Symbol",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/273"
+        },
+        "-KmHeVxbln18I0BOnNWn": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Symbol",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/273"
+        },
+        "-KmHeVxfhtjHT58ViJVO": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Symbol",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/273"
+        },
+        "-KmHeVxn0Tf8SZ33K4Lc": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Sending",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/245"
+        },
+        "-KmHeVxtadMGbzpZsGm7": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Sending",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/245"
+        },
+        "-KmHeVy2_pXciXe_X3EJ": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Sending",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/245"
+        },
+        "-KmHeVy5KADkFUXS0dFR": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Telekinesis",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/274"
+        },
+        "-KmHeVy8_hdL7R7zhwSO": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Telekinesis",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/274"
+        },
+        "-KmHeVyCFbFnI0fA3GuX": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Telepathic Bond",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/275"
+        },
+        "-KmHeVyHJAkRJkhLZ6qb": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Teleport",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/276"
+        },
+        "-KmHeVyP9uedSj6pOQek": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Teleport",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/276"
+        },
+        "-KmHeVyZldKn4BWbwedB": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Teleport",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/276"
+        },
+        "-KmHeVycuhrKhDEGXEvH": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Thaumaturgy",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/278"
+        },
+        "-KmHeVygEx4yIGceqeI5": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Teleportation Circle",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/277"
+        },
+        "-KmHeVymEQPy1CFJiJk0": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Teleportation Circle",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/277"
+        },
+        "-KmHeVyuZSXOma-8t8P6": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Teleportation Circle",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/277"
+        },
+        "-KmHeVz8n77aDwtli4lw": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Thunderwave",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/279"
+        },
+        "-KmHeVzAEnTe-fhVfZXv": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Thunderwave",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/279"
+        },
+        "-KmHeVzGH4POJ9Doj6be": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Thunderwave",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/279"
+        },
+        "-KmHeVzUtfFbOfOO8njK": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Thunderwave",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/279"
+        },
+        "-KmHeVzarozy0gI1F_H9": {
+            "class": "Sorcerer",
+            "level": 9,
+            "name": "Time Stop",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/280"
+        },
+        "-KmHeVzcvjAK9uQN-001": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Time Stop",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/280"
+        },
+        "-KmHeVzhWYg3Cd74XXSE": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Tiny Hut",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/281"
+        },
+        "-KmHeVzlWCYl6JIOBQQH": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Tiny Hut",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/281"
+        },
+        "-KmHeW-5vdOKwlO2KQ_O": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Tongues",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/282"
+        },
+        "-KmHeW-6UT2CVMMaVrxT": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Tongues",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/282"
+        },
+        "-KmHeW-CLF9ymyJIGWYR": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Tongues",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/282"
+        },
+        "-KmHeW-EAixnCrKS4MGh": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Tongues",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/282"
+        },
+        "-KmHeW-HP2huyyuDp03p": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Tongues",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/282"
+        },
+        "-KmHeW-cTBYQvkzEdFiW": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Transport via Plants",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/283"
+        },
+        "-KmHeW-ezXjFW3HeNxmX": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Tree Stride",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/284"
+        },
+        "-KmHeW-j58Z5Zi_dP3h2": {
+            "class": "Ranger",
+            "level": 5,
+            "name": "Tree Stride",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/284"
+        },
+        "-KmHeW-kOoVa7Y78YOQw": {
+            "class": "Bard",
+            "level": 9,
+            "name": "True Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/285"
+        },
+        "-KmHeW-oD-tmcAGC3GpE": {
+            "class": "Warlock",
+            "level": 9,
+            "name": "True Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/285"
+        },
+        "-KmHeW05ZGZNRuUzeNl5": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "True Polymorph",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/285"
+        },
+        "-KmHeW0DIRXWhUCdR2CZ": {
+            "class": "Cleric",
+            "level": 9,
+            "name": "True Resurrection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/286"
+        },
+        "-KmHeW0HG_ebSdDzDEE4": {
+            "class": "Bard",
+            "level": 6,
+            "name": "True Seeing",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/287"
+        },
+        "-KmHeW0J3tiuidRvDhtn": {
+            "class": "Druid",
+            "level": 9,
+            "name": "True Resurrection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/286"
+        },
+        "-KmHeW0RYBvfMAG5dScz": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "True Seeing",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/287"
+        },
+        "-KmHeW0alVSgzW4paakT": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "True Seeing",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/287"
+        },
+        "-KmHeW0jmz1GbnF_Rvgw": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "True Seeing",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/287"
+        },
+        "-KmHeW0oV8_kJf1s-vaT": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "True Seeing",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/287"
+        },
+        "-KmHeW0sk1C0HbmOfhAJ": {
+            "class": "Bard",
+            "level": 0,
+            "name": "True Strike",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/288"
+        },
+        "-KmHeW0xn5P6rwahxbEq": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "True Strike",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/288"
+        },
+        "-KmHeW17STPZM4mNO-0J": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "True Strike",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/288"
+        },
+        "-KmHeW1GBbzC07vu_Orh": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "True Strike",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/288"
+        },
+        "-KmHeW1JS7jC8YFVBD1q": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Unseen Servant",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/289"
+        },
+        "-KmHeW1Mq9SfX8FouREX": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Unseen Servant",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/289"
+        },
+        "-KmHeW1QVnH8-GVsar44": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Vampiric Touch",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/290"
+        },
+        "-KmHeW1RdASbx_rwE5o9": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Unseen Servant",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/289"
+        },
+        "-KmHeW1h_8nooV9SKzWv": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Vampiric Touch",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/290"
+        },
+        "-KmHeW1kzNttmAVCkTB2": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Wall of Ice",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/293"
+        },
+        "-KmHeW1qI2r6GSsMpTVr": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Wall of Fire",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/291"
+        },
+        "-KmHeW1uhmjVSgpfvHq3": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Wall of Fire",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/291"
+        },
+        "-KmHeW1vtyFAhMw7z3MC": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Wall of Fire",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/291"
+        },
+        "-KmHeW2EYc2My9eK_ANr": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Wall of Force",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/292"
+        },
+        "-KmHeW2FaN8VnZoYFVOV": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Wall of Stone",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/294"
+        },
+        "-KmHeW2MGp44h4wT2p8e": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Wall of Stone",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/294"
+        },
+        "-KmHeW2T1VOnioY6r8zZ": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Wall of Stone",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/294"
+        },
+        "-KmHeW2mRb_h0Mp_BPKr": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Wall of Thorns",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/295"
+        },
+        "-KmHeW2pGpaPd4ykvHtG": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Warding Bond",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/296"
+        },
+        "-KmHeW2q7T59V7QkeeUF": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Water Breathing",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/297"
+        },
+        "-KmHeW2zEvhf1mVQIzEU": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Water Breathing",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/297"
+        },
+        "-KmHeW3GxUqTSleTUYKR": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Water Breathing",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/297"
+        },
+        "-KmHeW3Ljvf2Err1hfKG": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Water Breathing",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/297"
+        },
+        "-KmHeW3PZwM0VZiRA53e": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Water Walk",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/298"
+        },
+        "-KmHeW3T2lsAIr_zr8kt": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Water Walk",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/298"
+        },
+        "-KmHeW3fQCOFe2rCwI9A": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Water Walk",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/298"
+        },
+        "-KmHeW3mDXZTxiur-AQ0": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Water Walk",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/298"
+        },
+        "-KmHeW47g2PcNheaPNY7": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Web",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/299"
+        },
+        "-KmHeW48lIq1ICNd4SJc": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Web",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/299"
+        },
+        "-KmHeW4Ah9bPpBzyvPiF": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Weird",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/300"
+        },
+        "-KmHeW4EWYmXmPCCrGtz": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Sunbeam",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/271"
+        },
+        "-KmHeW4F8Q8Z5HjTDWwv": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Sunbeam",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/271"
+        },
+        "-KmHeW4cjei5HCWhpY4Y": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Sunbeam",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/271"
+        },
+        "-KmHeW4jOJslfc9lmi_4": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Wind Wall",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/302"
+        },
+        "-KmHeW4l0V2p-Yjri6s4": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Wind Walk",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/301"
+        },
+        "-KmHeW4l0V2p-Yjri6s5": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Wind Wall",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/302"
+        },
+        "-KmHeW4mMoPDNw9nCqYN": {
+            "class": "Sorcerer",
+            "level": 9,
+            "name": "Wish",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/303"
+        },
+        "-KmHeW59-6xshAiZqy5f": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Wish",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/303"
+        },
+        "-KmHeW5E__m9SG4_MnCK": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Word of Recall",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/304"
+        },
+        "-KmHeW5IP7CoGRKN9OzW": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Zone of Truth",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/305"
+        },
+        "-KmHeW5JIoAQECu1GeKC": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Zone of Truth",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/305"
+        },
+        "-KmHeW5MfXl40ZwOT3Bp": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Zone of Truth",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/305"
+        },
+        "-KmHeW5dJLLfSpxwX-Az": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Aid",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/3"
+        },
+        "-KmHeW5mcOTiY_w68Fcw": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Aid",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/3"
+        },
+        "-KmHeW5pb5mRVjXbO_PO": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Alter Self",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/5"
+        },
+        "-KmHeW5t5wwyTlafEyoL": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Alter Self",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/5"
+        },
+        "-KmHeW5w6HpQskSR544Q": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Alarm",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/4"
+        },
+        "-KmHeW6C4tAFx1POx9L1": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Alarm",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/4"
+        },
+        "-KmHeW6O2li_rC5c6x4h": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Animate Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/8"
+        },
+        "-KmHeW6PmGgXjK5AxjVr": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Animate Dead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/8"
+        },
+        "-KmHeW6bJDQZB_Uu8gIL": {
+            "class": "Cleric",
+            "level": 8,
+            "name": "Antimagic Field",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/11"
+        },
+        "-KmHeW6idLoAHOMquov3": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Antimagic Field",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/11"
+        },
+        "-KmHeW6wfwxeFqiuK3VI": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Animate Objects",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/9"
+        },
+        "-KmHeW6xyjZilLvBhZem": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Animate Objects",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/9"
+        },
+        "-KmHeW76WEEhV3NMc5D-": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Animate Objects",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/9"
+        },
+        "-KmHeW7TZbyAMnQGq66Q": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Antilife Shell",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/10"
+        },
+        "-KmHeW7aiVRO3k7YjunD": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Antipathy/Sympathy",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/12"
+        },
+        "-KmHeW7aiVRO3k7YjunE": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Animal Shapes",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/7"
+        },
+        "-KmHeW7cDW2xs2J06KBm": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Antipathy/Sympathy",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/12"
+        },
+        "-KmHeW7zdoEBoR2MkEf3": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Arcane Eye",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/13"
+        },
+        "-KmHeW86zQyehW7wFKVk": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Arcane Eye",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/13"
+        },
+        "-KmHeW89OoCzamUf8Iyi": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Arcane Hand",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/14"
+        },
+        "-KmHeW8CT_xtyFhQ53f3": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Arcane Lock",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/15"
+        },
+        "-KmHeW8TgHycfgYPdY6C": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Arcane Sword",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/16"
+        },
+        "-KmHeW8VDKknOEJ0k1a2": {
+            "class": "Cleric",
+            "level": 9,
+            "name": "Astral Projection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/18"
+        },
+        "-KmHeW8aB8CvTd2-RLG1": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Arcane Sword",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/16"
+        },
+        "-KmHeW8iaoTqwKp8oxMz": {
+            "class": "Warlock",
+            "level": 9,
+            "name": "Astral Projection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/18"
+        },
+        "-KmHeW8p1s3uFKfoTe-m": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Arcanist's Magic Aura",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/17"
+        },
+        "-KmHeW93mjN9Qq_qeByh": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Astral Projection",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/18"
+        },
+        "-KmHeW96einBRwcd-ubC": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Augury",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/19"
+        },
+        "-KmHeW9KVh9mSvs_6hCY": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Awaken",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/20"
+        },
+        "-KmHeW9OmrGlsjcvDb0k": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Awaken",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/20"
+        },
+        "-KmHeW9_xKkfKzif6mZp": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Banishment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/22"
+        },
+        "-KmHeW9aRRSzYguH3AUQ": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Banishment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/22"
+        },
+        "-KmHeW9pQrNRpq9K3Et_": {
+            "class": "Warlock",
+            "level": 4,
+            "name": "Banishment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/22"
+        },
+        "-KmHeW9vWmduG7X-sKCd": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Banishment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/22"
+        },
+        "-KmHeWA6jD4BKRWVQTFq": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Bane",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/21"
+        },
+        "-KmHeWA9Cwnbyi7MxZ-H": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Bane",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/21"
+        },
+        "-KmHeWAOVX1LI3INwtJn": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Beacon of Hope",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/24"
+        },
+        "-KmHeWAPs9L9Jl7Kf_qE": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Barkskin",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/23"
+        },
+        "-KmHeWAbXXlLss6MTG56": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Barkskin",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/23"
+        },
+        "-KmHeWAbXXlLss6MTG57": {
+            "class": "Paladin",
+            "level": 4,
+            "name": "Banishment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/22"
+        },
+        "-KmHeWAtaC1pGLeN_M2K": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Bestow Curse",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/25"
+        },
+        "-KmHeWAxUO7bIzs2Ymgo": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Bestow Curse",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/25"
+        },
+        "-KmHeWB8hNy4v3ICmC0c": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Bestow Curse",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/25"
+        },
+        "-KmHeWBAh1Y7dAHYayve": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Blade Barrier",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/27"
+        },
+        "-KmHeWBPt54VcfxJZzxR": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Black Tentacles",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/26"
+        },
+        "-KmHeWBbem_314gdY-TW": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Bless",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/28"
+        },
+        "-KmHeWBc6GwqidmyBeXk": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Bless",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/28"
+        },
+        "-KmHeWBfyi-rZH8EdZlI": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Blight",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/29"
+        },
+        "-KmHeWBtW3GSqymTzZMh": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Blight",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/29"
+        },
+        "-KmHeWCEWQal2ezK0Pq3": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Blindness/Deafness",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/30"
+        },
+        "-KmHeWCM34CAtZ5qdufU": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Blight",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/29"
+        },
+        "-KmHeWCUIyLadkS6IE2W": {
+            "class": "Warlock",
+            "level": 4,
+            "name": "Blight",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/29"
+        },
+        "-KmHeWCViiHFZ2WmRhsC": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Blindness/Deafness",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/30"
+        },
+        "-KmHeWCzJR8aH2Y72zn4": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Blindness/Deafness",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/30"
+        },
+        "-KmHeWCzJR8aH2Y72zn5": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Blindness/Deafness",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/30"
+        },
+        "-KmHeWCzJR8aH2Y72zn6": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Blink",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/31"
+        },
+        "-KmHeWD5U-IKk7bezAVl": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Blink",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/31"
+        },
+        "-KmHeWDD61SUMo4LaHEL": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Blur",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/32"
+        },
+        "-KmHeWDVLf-llAa10jop": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Blur",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/32"
+        },
+        "-KmHeWDaLfZbIu-7al1z": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Burning Hands",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/33"
+        },
+        "-KmHeWDdKBRHZ_cGTpVn": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Burning Hands",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/33"
+        },
+        "-KmHeWDiUo1KHDIoYMsQ": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Call Lightning",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/34"
+        },
+        "-KmHeWE-Zu40LIY4sktj": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Calm Emotions",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/35"
+        },
+        "-KmHeWEA3JeNCPPe4pO1": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Calm Emotions",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/35"
+        },
+        "-KmHeWEA3JeNCPPe4pO2": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Chain Lightning",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/36"
+        },
+        "-KmHeWEJG5m7JRZE6um8": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Chain Lightning",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/36"
+        },
+        "-KmHeWEX43uDUyWNuqJA": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Charm Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/37"
+        },
+        "-KmHeWEgOeSWvwYRHjBZ": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Charm Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/37"
+        },
+        "-KmHeWEi077uGLX4293D": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Charm Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/37"
+        },
+        "-KmHeWEnODme5a137lX9": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Charm Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/37"
+        },
+        "-KmHeWF2MUtLt8oOinG_": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Charm Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/37"
+        },
+        "-KmHeWFG-PQ6yG3J_bSI": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Chill Touch",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/38"
+        },
+        "-KmHeWFKAxfMktmw-LHe": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "Chill Touch",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/38"
+        },
+        "-KmHeWFMTkBPyntQEww2": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Chill Touch",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/38"
+        },
+        "-KmHeWFfdB5YoSxQonqZ": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Circle of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/39"
+        },
+        "-KmHeWFj_KYgg0nBTb5F": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Circle of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/39"
+        },
+        "-KmHeWFpy2Nw9LIEkS6h": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Circle of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/39"
+        },
+        "-KmHeWFqGk8OB-e99oJa": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Clairvoyance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/40"
+        },
+        "-KmHeWGDRVgUzhwEKvAC": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Clairvoyance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/40"
+        },
+        "-KmHeWGDRVgUzhwEKvAD": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Clairvoyance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/40"
+        },
+        "-KmHeWGLp95lp7iEvmS2": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Clairvoyance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/40"
+        },
+        "-KmHeWGPlGpPjHHcaSPL": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Clone",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/41"
+        },
+        "-KmHeWGjFU7lz5fv-laC": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Cloudkill",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/42"
+        },
+        "-KmHeWGkEkBxaKiaxDg4": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Cloudkill",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/42"
+        },
+        "-KmHeWGrtL6pLbNVAVMZ": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Color Spray",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/43"
+        },
+        "-KmHeWGtL3ZByoyIOnQu": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Color Spray",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/43"
+        },
+        "-KmHeWHH-qGRKJvTTyk0": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Command",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/44"
+        },
+        "-KmHeWHKpUe9jlPA90cw": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Command",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/44"
+        },
+        "-KmHeWHNXVY14-pzSjSd": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Commune",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/45"
+        },
+        "-KmHeWHOs3mOKO38qyu4": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Commune with Nature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/46"
+        },
+        "-KmHeWHOs3mOKO38qyu5": {
+            "class": "Ranger",
+            "level": 5,
+            "name": "Commune with Nature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/46"
+        },
+        "-KmHeWHqDD7y07MNMZS3": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Comprehend Languages",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/47"
+        },
+        "-KmHeWHtGF_jWtSi-MFI": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Comprehend Languages",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/47"
+        },
+        "-KmHeWHuKE-wIATLiiES": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Comprehend Languages",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/47"
+        },
+        "-KmHeWINLYZqGBnBdIIL": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Comprehend Languages",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/47"
+        },
+        "-KmHeWIOjnw0SEYXTThK": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Cone of Cold",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/48"
+        },
+        "-KmHeWIVfTeg4p7hWV1R": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Cone of Cold",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/48"
+        },
+        "-KmHeWIsNwmoiFXe1_8e": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Confusion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/49"
+        },
+        "-KmHeWJ0Zgx3Gxb_O1dT": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Confusion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/49"
+        },
+        "-KmHeWJ2BSNNpFXNfVyI": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Confusion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/49"
+        },
+        "-KmHeWJNcRLI-KgXrJLq": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Confusion",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/49"
+        },
+        "-KmHeWJ_55ctFILrIpN3": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Conjure Animals",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/50"
+        },
+        "-KmHeWJaLxd2czNzu8aY": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Conjure Animals",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/50"
+        },
+        "-KmHeWJsZ0cNlDJNgYd4": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Conjure Elemental",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/52"
+        },
+        "-KmHeWK8hCbYlTMrd1vT": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Conjure Celestial",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/51"
+        },
+        "-KmHeWKl8eCtEsy6_1co": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Conjure Elemental",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/52"
+        },
+        "-KmHeWKzX1T5YelAIRGD": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Conjure Fey",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/53"
+        },
+        "-KmHeWLFr5wk0tE3sGFg": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Conjure Fey",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/53"
+        },
+        "-KmHeWLTONppXi1RFHnH": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Conjure Minor Elementals",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/54"
+        },
+        "-KmHeWLkgI3l2q7nCJeZ": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Conjure Minor Elementals",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/54"
+        },
+        "-KmHeWLl-NXiZRpRPZtL": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Contact Other Plane",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/56"
+        },
+        "-KmHeWLpH7tJtqTbhhtJ": {
+            "class": "Warlock",
+            "level": 5,
+            "name": "Contact Other Plane",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/56"
+        },
+        "-KmHeWM3js_V3yfG69O0": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Conjure Woodland Beings",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/55"
+        },
+        "-KmHeWMDOFnv-RTLXDRm": {
+            "class": "Ranger",
+            "level": 4,
+            "name": "Conjure Woodland Beings",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/55"
+        },
+        "-KmHeWMJDsw3YHxjANcD": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Contagion",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/57"
+        },
+        "-KmHeWMKQ4mDUpIxlCEh": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Contagion",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/57"
+        },
+        "-KmHeWMc5bx3zpb0mFxf": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Contingency",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/58"
+        },
+        "-KmHeWMkxsaTj-jjz5nv": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Continual Flame",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/59"
+        },
+        "-KmHeWMoqc0XiEBxq1Z_": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Continual Flame",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/59"
+        },
+        "-KmHeWMr5pf3uTyas5UE": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Control Water",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/60"
+        },
+        "-KmHeWNERhNNHkPc3U9Z": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Control Water",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/60"
+        },
+        "-KmHeWNFic-5TewW78hZ": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Control Water",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/60"
+        },
+        "-KmHeWNKfGVDbAdmtYEw": {
+            "class": "Cleric",
+            "level": 8,
+            "name": "Control Weather",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/61"
+        },
+        "-KmHeWNOJZSCeCijoDlS": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Control Weather",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/61"
+        },
+        "-KmHeWNkjU_scXLcciXm": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Control Weather",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/61"
+        },
+        "-KmHeWNo5WDGZlPyIA64": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Create Food and Water",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/62"
+        },
+        "-KmHeWNpaTCLxuxKW1oa": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Create Food and Water",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/62"
+        },
+        "-KmHeWNutY_fY_97EW4c": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Create Food and Water",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/62"
+        },
+        "-KmHeWNyBU6_y7bXyp6U": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Create or Destroy Water",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/63"
+        },
+        "-KmHeWOIp_flaD4W7SFp": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Create Undead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/64"
+        },
+        "-KmHeWOKVq3DWufxEN6s": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Create or Destroy Water",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/63"
+        },
+        "-KmHeWOL-ZOl0ONydGrc": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Create Undead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/64"
+        },
+        "-KmHeWOTKMkKrk5AQy8R": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Create Undead",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/64"
+        },
+        "-KmHeWOUuyLFpxbwR5iv": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Creation",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/65"
+        },
+        "-KmHeWOoljeOE4cVyYWG": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Creation",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/65"
+        },
+        "-KmHeWOuazhsUMwT3OuN": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Cure Wounds",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/66"
+        },
+        "-KmHeWOxIa1NwuUayLUj": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Cure Wounds",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/66"
+        },
+        "-KmHeWOy-tAC5lxHEY4C": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Cure Wounds",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/66"
+        },
+        "-KmHeWP1OKcdSyC7niLB": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Cure Wounds",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/66"
+        },
+        "-KmHeWP7X1j4hwvgEReX": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Cure Wounds",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/66"
+        },
+        "-KmHeWPKWWpKHcexh9Mu": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Dancing Lights",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/67"
+        },
+        "-KmHeWPNt5IGrEr0RO8D": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Dancing Lights",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/67"
+        },
+        "-KmHeWPWupveIZzHzQ2L": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Darkness",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/68"
+        },
+        "-KmHeWPWupveIZzHzQ2M": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Darkness",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/68"
+        },
+        "-KmHeWPbCu5pzqWfQlNS": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Dancing Lights",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/67"
+        },
+        "-KmHeWPddc_3j4tSCvm9": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Darkvision",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/69"
+        },
+        "-KmHeWPyvfWZ7mNtyClP": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Darkvision",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/69"
+        },
+        "-KmHeWQ-FgjzwPbPZca6": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Darkvision",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/69"
+        },
+        "-KmHeWQ-FgjzwPbPZca7": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Darkvision",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/69"
+        },
+        "-KmHeWQ20da3VaKOw_J3": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Daylight",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/70"
+        },
+        "-KmHeWQ80CHM5q8esxPr": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Daylight",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/70"
+        },
+        "-KmHeWQBt9d20P1CYCfF": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Daylight",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/70"
+        },
+        "-KmHeWQY6a491IX69BcM": {
+            "class": "Ranger",
+            "level": 3,
+            "name": "Daylight",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/70"
+        },
+        "-KmHeWQatROIsJ7cj4kp": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Daylight",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/70"
+        },
+        "-KmHeWQcg50ESxwYglHr": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Death Ward",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/71"
+        },
+        "-KmHeWQecbr7_4AMcb2u": {
+            "class": "Paladin",
+            "level": 4,
+            "name": "Death Ward",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/71"
+        },
+        "-KmHeWQjWJ80SEtagHyJ": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Delayed Blast Fireball",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/72"
+        },
+        "-KmHeWQzvRzsWGN3N-t2": {
+            "class": "Warlock",
+            "level": 8,
+            "name": "Demiplane",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/73"
+        },
+        "-KmHeWR3OfNcgWfdWucz": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Demiplane",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/73"
+        },
+        "-KmHeWR8AxJ5rR5fL43a": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Delayed Blast Fireball",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/72"
+        },
+        "-KmHeWRAZK0-gxmwAc1Q": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Detect Evil and Good",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/74"
+        },
+        "-KmHeWRC63_PkAOWB24J": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Detect Evil and Good",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/74"
+        },
+        "-KmHeWRK7j7v_DKrswMr": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Detect Poison and Disease",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/76"
+        },
+        "-KmHeWRT1GWjFCsp7qON": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Detect Poison and Disease",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/76"
+        },
+        "-KmHeWRfDhl8Lmsa4xrv": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Detect Poison and Disease",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/76"
+        },
+        "-KmHeWRgNdW1V34iCIhK": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Detect Thoughts",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/77"
+        },
+        "-KmHeWRgNdW1V34iCIhL": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Detect Thoughts",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/77"
+        },
+        "-KmHeWRoC6RCID31qov6": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Detect Thoughts",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/77"
+        },
+        "-KmHeWRpHr9RAOTEQOxM": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Detect Poison and Disease",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/76"
+        },
+        "-KmHeWS3P9tUZeJHL1Qm": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSB9RqAl_bPDbcQ": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSGC0S9Vm5wVdT8": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSLdnc5MXKCCku-": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSOP_0gLVupYoFq": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSbynayOURGDEVk": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Darkness",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/68"
+        },
+        "-KmHeWShXJpycQeClPvq": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSlrBFvxiTnx6EK": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Detect Magic",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/75"
+        },
+        "-KmHeWSq7Va0Z-Frqv9s": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Dimension Door",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/78"
+        },
+        "-KmHeWSsWXsPoqqXCksp": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Dimension Door",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/78"
+        },
+        "-KmHeWTB_ZQjJtC2MNGd": {
+            "class": "Warlock",
+            "level": 4,
+            "name": "Dimension Door",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/78"
+        },
+        "-KmHeWTB_ZQjJtC2MNGe": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Dimension Door",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/78"
+        },
+        "-KmHeWTLO_jRivuucki4": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Disguise Self",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/79"
+        },
+        "-KmHeWTML6Zh-oIOp7kM": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Disguise Self",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/79"
+        },
+        "-KmHeWTQibmgjTq1wSQ1": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Disintegrate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/80"
+        },
+        "-KmHeWTgp5dZ1wAA1Qtl": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Disguise Self",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/79"
+        },
+        "-KmHeWTxVc20Roca-tzE": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Dispel Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/81"
+        },
+        "-KmHeWTyVKf0ySXORquA": {
+            "class": "Paladin",
+            "level": 5,
+            "name": "Dispel Evil and Good",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/81"
+        },
+        "-KmHeWU2CRJ-yywUXrU1": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Disintegrate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/80"
+        },
+        "-KmHeWUKRVqvnPxlYYjp": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWUc9sq57Mt-JagM": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWUqA6-gFfYQffjk": {
+            "class": "Druid",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWVC8LA-rl-qosNo": {
+            "class": "Paladin",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWVT6xE_6sgRicoU": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWVqkDWLUeIHaKYQ": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWWA54h-7KN9PU7H": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Dispel Magic",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/82"
+        },
+        "-KmHeWWRYk2r47-bKwNh": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Divination",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/83"
+        },
+        "-KmHeWWZwIjnbyPLVZBG": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Divine Favor",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/84"
+        },
+        "-KmHeWWjWZS76_WiBsdU": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Dominate Beast",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/86"
+        },
+        "-KmHeWWyyid95ZsXn4TK": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Divine Word",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/85"
+        },
+        "-KmHeWXHa88h7iifAWyb": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Dominate Beast",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/86"
+        },
+        "-KmHeWXIYdx7TzImbvpe": {
+            "class": "Bard",
+            "level": 8,
+            "name": "Dominate Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/87"
+        },
+        "-KmHeWXYXi0Xb2ICVfjN": {
+            "class": "Sorcerer",
+            "level": 8,
+            "name": "Dominate Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/87"
+        },
+        "-KmHeWXYXi0Xb2ICVfjO": {
+            "class": "Warlock",
+            "level": 8,
+            "name": "Dominate Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/87"
+        },
+        "-KmHeWXpqPEyNxGluU-8": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Dominate Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/87"
+        },
+        "-KmHeWXt1RBdjMgcbAB1": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Dominate Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/88"
+        },
+        "-KmHeWXxyp6NE7Wp8zfA": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Dominate Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/88"
+        },
+        "-KmHeWY8ecBPB3nEHlBg": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Dream",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/89"
+        },
+        "-KmHeWYEIjicX3A-JI7S": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Dominate Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/88"
+        },
+        "-KmHeWYInvBQEeeTSG7e": {
+            "class": "Warlock",
+            "level": 5,
+            "name": "Dream",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/89"
+        },
+        "-KmHeWYOeOT5JFuVhvu4": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Dream",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/89"
+        },
+        "-KmHeWYQ6AG4Y0JR7R-Z": {
+            "class": "Cleric",
+            "level": 8,
+            "name": "Earthquake",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/90"
+        },
+        "-KmHeWYe_387_obAew0k": {
+            "class": "Sorcerer",
+            "level": 8,
+            "name": "Earthquake",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/90"
+        },
+        "-KmHeWYnv15-m7gavKFC": {
+            "class": "Warlock",
+            "level": 0,
+            "name": "Eldritch Blast",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/91"
+        },
+        "-KmHeWYnv15-m7gavKFD": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Earthquake",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/90"
+        },
+        "-KmHeWYssIW1wKxlW7Uv": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Enhance Ability",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/92"
+        },
+        "-KmHeWYxv25rkE67P-a1": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Enhance Ability",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/92"
+        },
+        "-KmHeWZCk_kS7hkdqWfI": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Enhance Ability",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/92"
+        },
+        "-KmHeWZNFp3VfVwl8Jwn": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Enhance Ability",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/92"
+        },
+        "-KmHeWZOkrhvf9SF0ts1": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Enlarge/Reduce",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/93"
+        },
+        "-KmHeWZRj4QEYqa-Zs5_": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Entangle",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/94"
+        },
+        "-KmHeWZVJQcQXpNLhUIh": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Enlarge/Reduce",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/93"
+        },
+        "-KmHeWZlWv2J36IbyrLi": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Enthrall",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/95"
+        },
+        "-KmHeWZtiG6kurrGHDWv": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Etherealness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/96"
+        },
+        "-KmHeWZycokVwMOxE4MD": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Enthrall",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/95"
+        },
+        "-KmHeW_01F6CFX_C5A2z": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Etherealness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/96"
+        },
+        "-KmHeW_3l0dNVDFgRpmf": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Etherealness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/96"
+        },
+        "-KmHeW_LgBQ1wouyddHB": {
+            "class": "Warlock",
+            "level": 7,
+            "name": "Etherealness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/96"
+        },
+        "-KmHeW_S5Rz9dnUO6Pjb": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Expeditious Retreat",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/97"
+        },
+        "-KmHeW_V1-A0UpZzRmaL": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Etherealness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/96"
+        },
+        "-KmHeW_V1-A0UpZzRmaM": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Expeditious Retreat",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/97"
+        },
+        "-KmHeW_Zh6TN65GZ9H1B": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Expeditious Retreat",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/97"
+        },
+        "-KmHeWa8eO88Of-bH-AU": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Eyebite",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/98"
+        },
+        "-KmHeWaBclCDoLsRe05F": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Eyebite",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/98"
+        },
+        "-KmHeWaEJfbEnQW6JVoO": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Eyebite",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/98"
+        },
+        "-KmHeWamr3C6cq_h8xHi": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Eyebite",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/98"
+        },
+        "-KmHeWaoQfT5WvWF-Fd8": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Fabricate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/99"
+        },
+        "-KmHeWb3N-Oj1osfq5_1": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Faerie Fire",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/100"
+        },
+        "-KmHeWbM398Y7yDqlcPI": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "False Life",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/102"
+        },
+        "-KmHeWbNMwnRoHWiH5b3": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Faithful Hound",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/101"
+        },
+        "-KmHeWbZ1zhtxXun39gw": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "False Life",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/102"
+        },
+        "-KmHeWbsZb7i005GKbVl": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Fear",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/103"
+        },
+        "-KmHeWbyWyDx_5ux9t-9": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Fear",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/103"
+        },
+        "-KmHeWc6yJle7CkJawjK": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Fear",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/103"
+        },
+        "-KmHeWcNozR6KcHincfK": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Fear",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/103"
+        },
+        "-KmHeWcR_bNTPW5M9Dpw": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Feather Fall",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/104"
+        },
+        "-KmHeWccKJOcwpiQg7Zs": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Feather Fall",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/104"
+        },
+        "-KmHeWcuP2hBB3ETjERk": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Feather Fall",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/104"
+        },
+        "-KmHeWcxxaqRsrHKEZ8r": {
+            "class": "Bard",
+            "level": 8,
+            "name": "Feeblemind",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/105"
+        },
+        "-KmHeWdEFPEuBqAxpM5t": {
+            "class": "Druid",
+            "level": 8,
+            "name": "Feeblemind",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/105"
+        },
+        "-KmHeWdRjPL1WVKAT8gX": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Find Steed",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/106"
+        },
+        "-KmHeWdSFHip-Kh4LWV1": {
+            "class": "Warlock",
+            "level": 8,
+            "name": "Feeblemind",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/105"
+        },
+        "-KmHeWdcaqoJpO4oilhD": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Feeblemind",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/105"
+        },
+        "-KmHeWdjcuTMpzmU8VM_": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Find the Path",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/107"
+        },
+        "-KmHeWdwXMNWuxDTnQZ6": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Find the Path",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/107"
+        },
+        "-KmHeWe5R_s0ELoLi8rv": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Find Traps",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/108"
+        },
+        "-KmHeWeCx_VMowg8pXhB": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Find Traps",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/108"
+        },
+        "-KmHeWeFQ4OYTscfErSe": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Finger of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/109"
+        },
+        "-KmHeWeRFU0EpHS77hoF": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Find Traps",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/108"
+        },
+        "-KmHeWeUoBATmzg3Ybnb": {
+            "class": "Warlock",
+            "level": 7,
+            "name": "Finger of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/109"
+        },
+        "-KmHeWehR3g_7MBwhx-G": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Finger of Death",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/109"
+        },
+        "-KmHeWeiuxRUIXa_Ihd4": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Fireball",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/110"
+        },
+        "-KmHeWemR8T4glpXyTkl": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Fireball",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/110"
+        },
+        "-KmHeWews75dYq-9NuaK": {
+            "class": "Cleric",
+            "level": 7,
+            "name": "Fire Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/112"
+        },
+        "-KmHeWf-i08zeiGKD-oH": {
+            "class": "Druid",
+            "level": 7,
+            "name": "Fire Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/112"
+        },
+        "-KmHeWfC1MduYqDXu1GQ": {
+            "class": "Sorcerer",
+            "level": 7,
+            "name": "Fire Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/112"
+        },
+        "-KmHeWfFUQ-v-qy20sFb": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Fire Shield",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/111"
+        },
+        "-KmHeWfM-_RJk4-DXWT7": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Flame Blade",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/113"
+        },
+        "-KmHeWfTCU1pSL3mqQgz": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Flame Strike",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/114"
+        },
+        "-KmHeWfYdGtanoY3IeM_": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Flaming Sphere",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/115"
+        },
+        "-KmHeWfYdGtanoY3IeMa": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Flaming Sphere",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/115"
+        },
+        "-KmHeWfjz1kfeBudOUL-": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Flesh to Stone",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/116"
+        },
+        "-KmHeWflU7KwZZzKOONa": {
+            "class": "Warlock",
+            "level": 6,
+            "name": "Flesh to Stone",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/116"
+        },
+        "-KmHeWfqF90mvChMgCHK": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Fly",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/118"
+        },
+        "-KmHeWfyaBLfBa6hxVZA": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Fly",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/118"
+        },
+        "-KmHeWg6znD4rYiNNLJU": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Floating Disk",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/117"
+        },
+        "-KmHeWg8rx_rCAEHFWjB": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Fly",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/118"
+        },
+        "-KmHeWgH1iP9BT5ctxrQ": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Fog Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/119"
+        },
+        "-KmHeWgQTNUsOhUYIq7W": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Fog Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/119"
+        },
+        "-KmHeWgSS9h74IUEWHWj": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Fog Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/119"
+        },
+        "-KmHeWgSS9h74IUEWHWk": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Fog Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/119"
+        },
+        "-KmHeWg_2VKxm19zDrzO": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Forbiddance",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/120"
+        },
+        "-KmHeWghclLDhDBVpdEV": {
+            "class": "Warlock",
+            "level": 7,
+            "name": "Forcecage",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/121"
+        },
+        "-KmHeWgrHY3ppPGPWCQI": {
+            "class": "Bard",
+            "level": 7,
+            "name": "Forcecage",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/121"
+        },
+        "-KmHeWgxrhnrJjOSb9XB": {
+            "class": "Wizard",
+            "level": 7,
+            "name": "Forcecage",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/121"
+        },
+        "-KmHeWgzlw9AkrNTa4mY": {
+            "class": "Bard",
+            "level": 9,
+            "name": "Foresight",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/122"
+        },
+        "-KmHeWh9E9ozlXhGJpIV": {
+            "class": "Warlock",
+            "level": 9,
+            "name": "Foresight",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/122"
+        },
+        "-KmHeWhEQi6LpQW_C7lu": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Foresight",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/122"
+        },
+        "-KmHeWhJYgFewikXHjFj": {
+            "class": "Druid",
+            "level": 9,
+            "name": "Foresight",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/122"
+        },
+        "-KmHeWhO14XZ0wfXHJeo": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Freedom of Movement",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/123"
+        },
+        "-KmHeWhW_7Noc6v7prRu": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Freedom of Movement",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/123"
+        },
+        "-KmHeWhdGU5_c5XRjMgr": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Freedom of Movement",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/123"
+        },
+        "-KmHeWheuwrjgbpEgYgx": {
+            "class": "Ranger",
+            "level": 4,
+            "name": "Freedom of Movement",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/123"
+        },
+        "-KmHeWhl35JvLijMKJkt": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Freezing Sphere",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/124"
+        },
+        "-KmHeWhqzi0RwseEz92T": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Gentle Repose",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/128"
+        },
+        "-KmHeWhxQ-d1wSTdO3PN": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Gentle Repose",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/128"
+        },
+        "-KmHeWhz7R0OVMpNTf3s": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Geas",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/127"
+        },
+        "-KmHeWiCKMMcRNiSml7-": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Geas",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/127"
+        },
+        "-KmHeWiHjvUd-6mLzf_x": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Geas",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/127"
+        },
+        "-KmHeWiIcNUhVSmQ_7pO": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Geas",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/127"
+        },
+        "-KmHeWiQomXb9t5ideWx": {
+            "class": "Paladin",
+            "level": 5,
+            "name": "Geas",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/127"
+        },
+        "-KmHeWiUjW2VDV2fY0cT": {
+            "class": "Cleric",
+            "level": 9,
+            "name": "Gate",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/126"
+        },
+        "-KmHeWi_d_VJUuwy0nyU": {
+            "class": "Sorcerer",
+            "level": 9,
+            "name": "Gate",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/126"
+        },
+        "-KmHeWisD6G3sw-D6MOB": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Gate",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/126"
+        },
+        "-KmHeWixXG5J_LpTMZdo": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Gaseous Form",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/125"
+        },
+        "-KmHeWixXG5J_LpTMZdp": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Gaseous Form",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/125"
+        },
+        "-KmHeWj-t4vdZTOt0GzB": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Gaseous Form",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/125"
+        },
+        "-KmHeWj54013eQ0jzI8y": {
+            "class": "Bard",
+            "level": 8,
+            "name": "Glibness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/130"
+        },
+        "-KmHeWjRO37KSw9dKan-": {
+            "class": "Sorcerer",
+            "level": 6,
+            "name": "Globe of Invulnerability",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/131"
+        },
+        "-KmHeWjVBDM9Sh_L0aW0": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Globe of Invulnerability",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/131"
+        },
+        "-KmHeWj_joa5SV8WCeOj": {
+            "class": "Cleric",
+            "level": 3,
+            "name": "Glyph of Warding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/132"
+        },
+        "-KmHeWjaKtLBxu72_FDP": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Glyph of Warding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/132"
+        },
+        "-KmHeWjaKtLBxu72_FDQ": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Glyph of Warding",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/132"
+        },
+        "-KmHeWk2J7Ya_beKE7b1": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Grease",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/133"
+        },
+        "-KmHeWk8Gnuq0GwsNgXw": {
+            "class": "Warlock",
+            "level": 8,
+            "name": "Glibness",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/130"
+        },
+        "-KmHeWk9_TzlBet611h3": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Greater Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/134"
+        },
+        "-KmHeWkDEW0ASHxbG3dX": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Greater Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/134"
+        },
+        "-KmHeWkY8RbZYvTFqVAx": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Greater Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/134"
+        },
+        "-KmHeWkd10b5PQv0ADIT": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Giant Insect",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/129"
+        },
+        "-KmHeWkhPfYZ3OpMcWjb": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Greater Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/135"
+        },
+        "-KmHeWkmq4GTXqIiBmKS": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Greater Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/135"
+        },
+        "-KmHeWl6j-GCMcJg7Z0t": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Greater Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/135"
+        },
+        "-KmHeWlAni2rZO9BUEqi": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Guards and Wards",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/136"
+        },
+        "-KmHeWlAni2rZO9BUEqj": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Guards and Wards",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/136"
+        },
+        "-KmHeWlIps0m6A4na1q2": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Guidance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/137"
+        },
+        "-KmHeWljy1-CE-BtguXi": {
+            "class": "Druid",
+            "level": 0,
+            "name": "Guidance",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/137"
+        },
+        "-KmHeWllA-iRrmUy9ijT": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Guiding Bolt",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/138"
+        },
+        "-KmHeWlqr6TvipUgmfCc": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Gust of Wind",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/139"
+        },
+        "-KmHeWmLx9qonYNtvykH": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Gust of Wind",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/139"
+        },
+        "-KmHeWmOa3dAjHebp0Vb": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Gust of Wind",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/139"
+        },
+        "-KmHeWmsvMghaAM_eZ2r": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Hallow",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/140"
+        },
+        "-KmHeWmzuEOykRBGPU-y": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Hallucinatory Terrain",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/141"
+        },
+        "-KmHeWnMvnIo5X8DX4u4": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Hallucinatory Terrain",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/141"
+        },
+        "-KmHeWnVtRac_dwi6SG4": {
+            "class": "Warlock",
+            "level": 4,
+            "name": "Hallucinatory Terrain",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/141"
+        },
+        "-KmHeWnW7vxxtLc3g53c": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Haste",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/143"
+        },
+        "-KmHeWnwpQMnqyPFSJQP": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Hallucinatory Terrain",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/141"
+        },
+        "-KmHeWo9FO6eCeSNPXfu": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Haste",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/143"
+        },
+        "-KmHeWoV7VWJFTnnW-gU": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Healing Word",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/145"
+        },
+        "-KmHeWof0FYAsWXZ4Y6Y": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Healing Word",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/145"
+        },
+        "-KmHeWpCrnt_gooBgRAN": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Healing Word",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/145"
+        },
+        "-KmHeWpDGYT7W-tltWPu": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Heat Metal",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/146"
+        },
+        "-KmHeWpjKopUNhiNAiJX": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Heat Metal",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/146"
+        },
+        "-KmHeWpqXF-c6D7qAW-9": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Heal",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/144"
+        },
+        "-KmHeWqbxGxYhz1Mxvx5": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Heal",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/144"
+        },
+        "-KmHeWqedJoUnn4gTUP_": {
+            "class": "Druid",
+            "level": 6,
+            "name": "Heroes' Feast",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/147"
+        },
+        "-KmHeWqkWs1hOr3NMHeT": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Heroes' Feast",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/147"
+        },
+        "-KmHeWrAjvLTjPyEspVm": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Heroism",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/148"
+        },
+        "-KmHeWrB2YHXII2QS4um": {
+            "class": "Paladin",
+            "level": 1,
+            "name": "Heroism",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/148"
+        },
+        "-KmHeWrHJevWNKMtYfD3": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Hold Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/150"
+        },
+        "-KmHeWrVPoSwJ2AIZm0k": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Hold Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/150"
+        },
+        "-KmHeWrkoFk1Ia4cTrmU": {
+            "class": "Warlock",
+            "level": 5,
+            "name": "Hold Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/150"
+        },
+        "-KmHeWrmfP3bTPO7DvMN": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Hold Monster",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/150"
+        },
+        "-KmHeWrynmjCUiEfNLr8": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWs-7XdfXmTcPE4i": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWs2FWaPiRYvQddW": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWsNG82DlxyzXaFK": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWsNG82DlxyzXaFL": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWsbevtfTo9RgHRS": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Hold Person",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/151"
+        },
+        "-KmHeWsilkYs3yzb5LJv": {
+            "class": "Cleric",
+            "level": 8,
+            "name": "Holy Aura",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/152"
+        },
+        "-KmHeWsjfDqASPE1Hxd0": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Hideous Laughter",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/149"
+        },
+        "-KmHeWtA9yxP_cniZUup": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Hideous Laughter",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/149"
+        },
+        "-KmHeWtDy5IBMLs11Sla": {
+            "class": "Bard",
+            "level": 3,
+            "name": "Hypnotic Pattern",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/153"
+        },
+        "-KmHeWtRiEBFfHTvlLuG": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Hypnotic Pattern",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/153"
+        },
+        "-KmHeWtSZiUMgIgEQ6yn": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Hypnotic Pattern",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/153"
+        },
+        "-KmHeWtWCZ17o378zST4": {
+            "class": "Warlock",
+            "level": 3,
+            "name": "Hypnotic Pattern",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/153"
+        },
+        "-KmHeWtiT0qNClVIXX_W": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Ice Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/154"
+        },
+        "-KmHeWtpt0sLeqqemka-": {
+            "class": "Sorcerer",
+            "level": 4,
+            "name": "Ice Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/154"
+        },
+        "-KmHeWu-1UR5GjXMlBAp": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Ice Storm",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/154"
+        },
+        "-KmHeWu1W0bfZOIn4IVo": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Identify",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/155"
+        },
+        "-KmHeWuI1elN5Vo3gENX": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Identify",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/155"
+        },
+        "-KmHeWuacb4NkKjPlCed": {
+            "class": "Wizard",
+            "level": 9,
+            "name": "Imprisonment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/157"
+        },
+        "-KmHeWubZsSG3S4HqPD9": {
+            "class": "Warlock",
+            "level": 9,
+            "name": "Imprisonment",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/157"
+        },
+        "-KmHeWvEVm--9rMm74ne": {
+            "class": "Bard",
+            "level": 1,
+            "name": "Illusory Script",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/156"
+        },
+        "-KmHeWvVGDvM8dPgYCsN": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Illusory Script",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/156"
+        },
+        "-KmHeWvW6e7e1oMN9K6K": {
+            "class": "Sorcerer",
+            "level": 8,
+            "name": "Incendiary Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/158"
+        },
+        "-KmHeWvn8kNLp8SgxNSm": {
+            "class": "Warlock",
+            "level": 1,
+            "name": "Illusory Script",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/156"
+        },
+        "-KmHeWw-08GYD-1wMo_N": {
+            "class": "Wizard",
+            "level": 8,
+            "name": "Incendiary Cloud",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/158"
+        },
+        "-KmHeWw44Q0XO0iHhDTF": {
+            "class": "Cleric",
+            "level": 1,
+            "name": "Inflict Wounds",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/159"
+        },
+        "-KmHeWw6mSuSZwgQ2AhM": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Insect Plague",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/160"
+        },
+        "-KmHeWwOKpnVeM_CcM7E": {
+            "class": "Sorcerer",
+            "level": 5,
+            "name": "Insect Plague",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/160"
+        },
+        "-KmHeWwPhx8-_T8L2I0y": {
+            "class": "Druid",
+            "level": 5,
+            "name": "Insect Plague",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/160"
+        },
+        "-KmHeWwVFfva3nR13oYa": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Instant Summons",
+            "school": "Conjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/161"
+        },
+        "-KmHeWwbkWLemCDo-ua8": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/162"
+        },
+        "-KmHeWwbkWLemCDo-ua9": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/162"
+        },
+        "-KmHeWwu21Q3zaP9uapZ": {
+            "class": "Warlock",
+            "level": 2,
+            "name": "Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/162"
+        },
+        "-KmHeWwwsa887vhGWwzg": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Invisibility",
+            "school": "Illusion",
+            "url": "http://www.dnd5eapi.co/api/spells/162"
+        },
+        "-KmHeWx6V0Pja_NL6sGB": {
+            "class": "Wizard",
+            "level": 6,
+            "name": "Irresistible Dance",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/163"
+        },
+        "-KmHeWx8PtHi4RkNCkLi": {
+            "class": "Druid",
+            "level": 1,
+            "name": "Jump",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/164"
+        },
+        "-KmHeWxBpvGfR0H4F-YU": {
+            "class": "Ranger",
+            "level": 1,
+            "name": "Jump",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/164"
+        },
+        "-KmHeWxTRFGl78mbqeUy": {
+            "class": "Sorcerer",
+            "level": 1,
+            "name": "Jump",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/164"
+        },
+        "-KmHeWxXqeqOFXdt6OUi": {
+            "class": "Wizard",
+            "level": 1,
+            "name": "Jump",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/164"
+        },
+        "-KmHeWxgUG7vPl3tS1p3": {
+            "class": "Bard",
+            "level": 6,
+            "name": "Irresistible Dance",
+            "school": "Enchantment",
+            "url": "http://www.dnd5eapi.co/api/spells/163"
+        },
+        "-KmHeWxmiv7vlSHODuXr": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Knock",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/165"
+        },
+        "-KmHeWxotHt6dzhVYApM": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Knock",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/165"
+        },
+        "-KmHeWxxkUAMeTwlCJwD": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Knock",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/165"
+        },
+        "-KmHeWy80e8a8YCJ6wt3": {
+            "class": "Bard",
+            "level": 5,
+            "name": "Legend Lore",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/166"
+        },
+        "-KmHeWyAiJdNUxG0KnEz": {
+            "class": "Cleric",
+            "level": 5,
+            "name": "Legend Lore",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/166"
+        },
+        "-KmHeWyMlZkikRuwwHSi": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/167"
+        },
+        "-KmHeWyPy9zLKSD7k7SI": {
+            "class": "Wizard",
+            "level": 5,
+            "name": "Legend Lore",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/166"
+        },
+        "-KmHeWySsOPxYh_12X6d": {
+            "class": "Cleric",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/167"
+        },
+        "-KmHeWyh5RviYEoLowAt": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/167"
+        },
+        "-KmHeWywcDYx9aWqA6vh": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/167"
+        },
+        "-KmHeWz-MNr9rUWZ4WeJ": {
+            "class": "Paladin",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "school": "Abjuration",
+            "url": "http://www.dnd5eapi.co/api/spells/167"
+        },
+        "-KmHeWzE2Ua_blov6446": {
+            "class": "Bard",
+            "level": 0,
+            "name": "Light",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/169"
+        },
+        "-KmHeWzRAg3oQklyUAFU": {
+            "class": "Cleric",
+            "level": 0,
+            "name": "Light",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/169"
+        },
+        "-KmHeWzU2d4o49oJNH-h": {
+            "class": "Sorcerer",
+            "level": 0,
+            "name": "Light",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/169"
+        },
+        "-KmHeWzX9ByHJ1Qq1mYe": {
+            "class": "Wizard",
+            "level": 0,
+            "name": "Light",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/169"
+        },
+        "-KmHeWzmab7tp6fRu7D4": {
+            "class": "Wizard",
+            "level": 2,
+            "name": "Levitate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/168"
+        },
+        "-KmHeWzmab7tp6fRu7D5": {
+            "class": "Sorcerer",
+            "level": 2,
+            "name": "Levitate",
+            "school": "Transmutation",
+            "url": "http://www.dnd5eapi.co/api/spells/168"
+        },
+        "-KmHeX--x1HzjMP8dSXw": {
+            "class": "Druid",
+            "level": 2,
+            "name": "Locate Animals or Plants",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/171"
+        },
+        "-KmHeX-062B7n4wTggaV": {
+            "class": "Bard",
+            "level": 2,
+            "name": "Locate Animals or Plants",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/171"
+        },
+        "-KmHeX-3b8O7Sjc_J8sk": {
+            "class": "Ranger",
+            "level": 2,
+            "name": "Locate Animals or Plants",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/171"
+        },
+        "-KmHeX-J9tWPhhDU-rRw": {
+            "class": "Bard",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-MIhCgfnnMVCD9": {
+            "class": "Cleric",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-U829xcGKuXg3h": {
+            "class": "Druid",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-aULKyAr_ycH-T": {
+            "class": "Ranger",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-d4hjHjoi8X_gM": {
+            "class": "Paladin",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-ovTAYB63DldEY": {
+            "class": "Wizard",
+            "level": 4,
+            "name": "Locate Creature",
+            "school": "Divination",
+            "url": "http://www.dnd5eapi.co/api/spells/172"
+        },
+        "-KmHeX-u7_SNF_89WKG0": {
+            "class": "Cleric",
+            "level": 6,
+            "name": "Harm",
+            "school": "Necromancy",
+            "url": "http://www.dnd5eapi.co/api/spells/142"
+        },
+        "-KmHeX00fmfvLY8EWjj2": {
+            "class": "Sorcerer",
+            "level": 3,
+            "name": "Lightning Bolt",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/170"
+        },
+        "-KmHeX067j6O25ukQatF": {
+            "class": "Wizard",
+            "level": 3,
+            "name": "Lightning Bolt",
+            "school": "Evocation",
+            "url": "http://www.dnd5eapi.co/api/spells/170"
+        }
+    }
+}
+
+}

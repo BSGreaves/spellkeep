@@ -1,0 +1,1 @@
+var app = angular.module("SpellKeepApp", ["ngRoute", "ui.bootstrap"]);
