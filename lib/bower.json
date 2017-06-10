@@ -1,0 +1,36 @@
+{
+  "name": "spellkeep",
+  "description": "A spellbook manager for D&D 5E campaigns",
+  "main": "index.js",
+  "authors": [
+    "Ben Greaves"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "dnd",
+    "dungeons-and-dragons",
+    "tabletop"
+  ],
+  "homepage": "https://github.com/BSGreaves/spellkeep",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-side-navbar": "^1.0.1",
+    "jquery": "^3.2.1",
+    "ramda": "^0.23.0"
+  },
+  "resolutions": {
+    "angular": "^1.6.4"
+  }
+}
