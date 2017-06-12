@@ -28,7 +28,8 @@
     "bootstrap": "^3.3.7",
     "bootstrap-side-navbar": "^1.0.1",
     "jquery": "^3.2.1",
-    "ramda": "^0.23.0"
+    "ramda": "^0.23.0",
+    "rpg-awesome": "^1.0.0"
   },
   "resolutions": {
     "angular": "^1.6.4"
