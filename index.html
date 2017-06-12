@@ -8,17 +8,20 @@
 		<title>SpellKeep</title>
 		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Bilbo" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="javascripts/vendor/font-awesome-4.7.0/css/font-awesome.min.css">		
 		<link type="text/css" rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.css">
 		<link type="text/css" rel="stylesheet" href="./styles/main.css">
 	</head>
 	<body ng-app="SpellKeepApp">
 
-		<div ng-include="'partials/top-nav.html'"></div>
+<!-- 		<div ng-include="'partials/top-nav.html'"></div>
+ -->
+		<div ng-include="'partials/side-nav.html'" class="col-xs-2"></div>
 
 		<!-- <div ng-include="'partials/side-nav.html'">
 		</div> -->
 
-		<main ng-view>
+		<main class="left-offset" ng-view>
 		</main>
 		<!-- FIREBASE -->
 		<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>

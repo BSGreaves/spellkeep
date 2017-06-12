@@ -85,22 +85,24 @@
     },
     "spellsKnown": {
         "spell0": {
-            "sbid": "",
-            "name": "",
-            "level": 0,
-            "school": "",
-            "url": "",
+            "index": 1,
+            "sbid": "spellbook0",
+            "name": "Acid Arrow",
+            "level": 2,
+            "school": "Evocation",
+            "class": "Wizard",
             "prepared": false,
-            "index": 1
+            "url": "http://www.dnd5eapi.co/api/spells/1"
         },
         "spell1": {
-            "sbid": "",
-            "name": "",
-            "level": 0,
-            "school": "",
-            "url": "",
+            "index": 2,
+            "sbid": "spellbook0",
+            "name": "Alter Self",
+            "level": 2,
+            "school": "Transmutation",
+            "class": "Wizard",
             "prepared": false,
-            "index": 2
+            "url": "http://www.dnd5eapi.co/api/spells/5"
         }
     },
     "spellIndex": {
@@ -5383,6 +5385,4 @@
             "url": "http://www.dnd5eapi.co/api/spells/170"
         }
     }
-}
-
 }

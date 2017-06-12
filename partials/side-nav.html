@@ -1,0 +1,55 @@
+<div ng-controller="SideNavCtrl">
+    <div class="nav-side-menu">
+        <div class="spellKeepLogo">SpellKeep</div>
+        <i class="fa fa-bars fa-2x toggle-btn"></i>
+        <div class="menu-list" ng-if="user.uid">
+            <ul id="menu-content" class="menu-content collapse out">
+                <a ng-href="#!/overview">
+                    <li class="collapsed" ng-click="overviewCollapsed = !overviewCollapsed" ng-class="{active: ifUrlIs('/overview')}">
+                        <i class="fa fa-gift fa-lg"></i> Quest<span class="arrow"></span>
+                    </li>
+                </a>
+                <ul class="sub-menu collapse" id="products" uib-collapse="overviewCollapsed">
+                    <a ng-href="#!/spellbook"><li ng-class="{active: ifUrlIs('/spellbook')}">Spellbook</li></a>
+                    <a ng-href="#"><li>Inventory</li></a>
+                    <a ng-href="#"><li>Rest</li></a>
+                </ul>
+                <a ng-href="#!/viewcharacter"">
+                    <li class="collapsed" ng-click="characterCollapsed = !characterCollapsed" ng-class="{active: ifUrlIs('/viewcharacter')}">
+                        <i class="fa fa-globe fa-lg"></i> Character<span class="arrow"></span>
+                    </li>
+                </a>
+                <ul class="sub-menu collapse" id="service" uib-collapse="characterCollapsed">
+                    <a ng-href="#"><li>Level Up</li></a>
+                    <a ng-href="#!/modifyspellslots"><li ng-class="{active: ifUrlIs('/modifyspellslots')}">Modify Stats</li></a>
+                    <a ng-href="#!/modifystats"><li ng-class="{active: ifUrlIs('/modifystats')}">Modify Spell Slots</li></a>
+                </ul>
+                <a ng-href="#">
+                    <li class="collapsed" ng-click="referenceCollapsed = !referenceCollapsed">
+                        <i class="fa fa-car fa-lg"></i> Reference<span class="arrow"></span>
+                    </li>
+                </a>
+                <ul class="sub-menu collapse" id="new" uib-collapse="referenceCollapsed">
+                    <li>New New 1</li>
+                    <li>New New 2</li>
+                    <li>New New 3</li>
+                </ul>
+                <a ng-href="#!/characters">
+                    <li ng-class="{active: ifUrlIs('/characters')}">
+                        <i class="fa fa-user fa-lg"></i> Change Character
+                    </li>
+                </a>
+                <a ng-href="#">
+                    <li>
+                        <i class="fa fa-user fa-lg"></i> Profile
+                    </li>
+                </a>
+                <a ng-href="#!/logout">
+                    <li>
+                        <i class="fa fa-users fa-lg"></i> Logout
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
