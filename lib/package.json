@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/BSGreaxves/spellbook-manager#readme",
   "dependencies": {
+    "angular-material-accordion": "^1.0.1",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
