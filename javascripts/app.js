@@ -1,1 +1,1 @@
-var app = angular.module("SpellKeepApp", ["ngRoute", "ui.bootstrap"]);
+var app = angular.module("SpellKeepApp", ["ngRoute", "ui.bootstrap", "angAccordion", "angular.filter"]);

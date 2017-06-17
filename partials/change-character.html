@@ -1,0 +1,35 @@
+<nav class="navbar-default navbar top-nav">
+    <div class="row top-nav">
+        <div class="row no-left-margin">
+            <div class="col-xs-4 text-center">
+                <input class="btn btn-primary" type="button" value="New Character" ng-click="">
+            </div>
+            <div class="col-xs-4 text-center">
+                <h4>All Characters</h3>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="row">
+    <div ng-repeat="character in allCharacters | orderBy: charName">
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading panel-edit">
+                    <div class="panel-title" class="text-center">
+                        {{character.charName}}
+                        <div class="pull-right ">
+                            <button class="btn btn-sm btn-danger btn-margin" ng-click="deleteCharacter(character.id)">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <a target="_blank"><img class="img-responsive center-block" src="{{character.imgUrl}}" alt="{{character.name}}"></a>
+                    <input class="btn btn-primary" type="button" value="Select" ng-click="setActiveCharacter(character.id)">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

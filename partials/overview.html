@@ -24,9 +24,9 @@
 					<h3 class="panel-title">Name</h3>
 				</div>
 				<div class="panel-body">
-					<p>Level:</p>
-					<p>Spell DC:</p>
-					<p>Proficiency Bonus:</p>
+					<p>Level: {{currChar.primaryClassLvl}}</p>
+					<p>Spell DC: {{calcSpellDC()}}</p>
+					<p>Proficiency Bonus: +{{currChar.prof_bonus}}</p>
 					<p>Spells Prepared:</p>
 					<p>Spell Slots Rem:</p>
 				</div>
@@ -36,16 +36,59 @@
 	<div class="col-xs-3">
 		<ul class="list-group">
 		  <li class="list-group-item">Cantrips<span class="pull-right">At-will</span></li>
-		  <li class="list-group-item">Level 1<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 2<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 3<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 4<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 5<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 6<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 7<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 8<span class="pull-right">0/0</span></li>
-		  <li class="list-group-item">Level 9<span class="pull-right">0/0</span></li>
+		  <li class="list-group-item">Level 1<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_1}}</span></li>
+		  <li class="list-group-item">Level 2<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_2}}</span></li>
+		  <li class="list-group-item">Level 3<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_3}}</span></li>
+		  <li class="list-group-item">Level 4<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_4}}</span></li>
+		  <li class="list-group-item">Level 5<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_5}}</span></li>
+		  <li class="list-group-item">Level 6<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_6}}</span></li>
+		  <li class="list-group-item">Level 7<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_7}}</span></li>
+		  <li class="list-group-item">Level 8<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_8}}</span></li>
+		  <li class="list-group-item">Level 9<span class="pull-right">0/{{currChar.spellcasting.spell_slots_level_9}}</span></li>
 		</ul>
 	</div>
-	<div class="col-xs-5"></div>
+	<div class="col-xs-5">
+		<div class="scrollOverflow">
+	  	<div class="form-group">
+    		<input type="text" class="form-control" ng-model="preparedSearchIndex" placeholder="Search...">
+	  	</div>
+			<div class="row">
+	  		<div class="col-xs-6">
+	  			<select class="form-control" ng-model="preparedLevelFilter">
+        		<option selected value="">All Levels</option>
+  					<option value="0">Cantrips</option>
+  					<option value="1">Level 1</option>
+  					<option value="2">Level 2</option>
+  					<option value="3">Level 3</option>
+  					<option value="4">Level 4</option>
+  					<option value="5">Level 5</option>
+  					<option value="6">Level 6</option>
+  					<option value="7">Level 7</option>
+  					<option value="8">Level 8</option>
+  					<option value="9">Level 9</option>
+					</select>
+				</div>
+				<div class="col-xs-6">
+	  			<select class="form-control" ng-model="preparedSchoolFilter">
+        		<option selected value="">All Schools</option>
+  					<option value="Abjuration">Abjuration</option>
+  					<option value="Conjuration">Conjuration</option>
+  					<option value="Divination">Divination</option>
+  					<option value="Enchantment">Enchantment</option>
+  					<option value="Evocation">Evocation</option>
+  					<option value="Illusion">Illusion</option>
+  					<option value="Necromancy">Necromancy</option>
+  					<option value="Transmutation">Transmutation</option>
+					</select>
+				</div>
+	  	</div>
+			<uib-accordion close-others="true">
+				<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | filter: {prepared: true} | filter: preparedSearchIndex | filter: {level: preparedLevelFilter} | filter: {school: preparedSchoolFilter} | orderBy: ['level']">
+					<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
+						<input class="btn btn-primary" type="button" value="Unprepare Spell" ng-click="unprepareSpell(spell); $event.preventDefault();">
+					</div>
+				</div>
+			</uib-accordion>
+		</div>
+	</div>
 </div>

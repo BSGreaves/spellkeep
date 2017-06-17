@@ -1,6 +1,3 @@
-html body main .spell-desc-cont {
-  height: 100vh; }
-
 html {
   font-family: "Bilbo", cursive;
   font-size: 18px; }
@@ -9,11 +6,37 @@ html {
   header, main, footer {
     padding-left: 0; } }
 
+.spellKeepLogo {
+  height: 10vh; }
+
+.top-tab {
+  height: 10vh; }
+
+.top-nav {
+  border-radius: 0px !important;
+  height: 10vh; }
+
+.spell-desc-cont {
+  height: 82vh; }
+
+.scrollOverflow {
+  height: 82vh;
+  overflow: scroll; }
+
 .spellkeep {
   font-family: "Great Vibes", cursive; }
 
-.top-nav {
-  border-radius: 0px !important; }
+.btn-margin {
+  margin: 0px 5px; }
+
+.panel-edit {
+  padding: 20px; }
+
+.ability-label {
+  width: 50%; }
+
+.ability-cont {
+  padding: 10px 0; }
 
 .left-offset {
   margin-left: 200px; }

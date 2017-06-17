@@ -1,12 +1,14 @@
 <div ng-controller="SideNavCtrl">
     <div class="nav-side-menu">
-        <div class="spellKeepLogo">SpellKeep</div>
+        <div class="spellKeepLogoDiv">
+            <div class="spellKeepLogo">SpellKeep</div>
+        </div>
         <i class="fa fa-bars fa-2x toggle-btn"></i>
         <div class="menu-list" ng-if="user.uid">
             <ul id="menu-content" class="menu-content collapse out">
                 <a ng-href="#!/overview">
                     <li class="collapsed" ng-click="overviewCollapsed = !overviewCollapsed" ng-class="{active: ifUrlIs('/overview')}">
-                        <i class="fa fa-gift fa-lg"></i> Quest<span class="arrow"></span>
+                        <i class="fa fa-gear fa-lg"></i> Quest<span class="arrow"></span>
                     </li>
                 </a>
                 <ul class="sub-menu collapse" id="products" uib-collapse="overviewCollapsed">
@@ -16,7 +18,7 @@
                 </ul>
                 <a ng-href="#!/viewcharacter"">
                     <li class="collapsed" ng-click="characterCollapsed = !characterCollapsed" ng-class="{active: ifUrlIs('/viewcharacter')}">
-                        <i class="fa fa-globe fa-lg"></i> Character<span class="arrow"></span>
+                        <i class="fa fa-address-card fa-lg"></i> Character<span class="arrow"></span>
                     </li>
                 </a>
                 <ul class="sub-menu collapse" id="service" uib-collapse="characterCollapsed">
@@ -26,7 +28,7 @@
                 </ul>
                 <a ng-href="#">
                     <li class="collapsed" ng-click="referenceCollapsed = !referenceCollapsed">
-                        <i class="fa fa-car fa-lg"></i> Reference<span class="arrow"></span>
+                        <i class="fa fa-archive fa-lg"></i> Reference<span class="arrow"></span>
                     </li>
                 </a>
                 <ul class="sub-menu collapse" id="new" uib-collapse="referenceCollapsed">
@@ -36,17 +38,32 @@
                 </ul>
                 <a ng-href="#!/characters">
                     <li ng-class="{active: ifUrlIs('/characters')}">
-                        <i class="fa fa-user fa-lg"></i> Change Character
+                        <i class="fa fa-users fa-lg"></i> Change Character
+                    </li>
+                </a>
+                <a ng-href="#!/newcharacter">
+                    <li ng-class="{active: ifUrlIs('/newcharacter')}">
+                        <i class="fa fa-users fa-lg"></i> New Character
+                    </li>
+                </a>
+                <a ng-href="#!/newspellbook">
+                    <li ng-class="{active: ifUrlIs('/newspellbook')}">
+                        <i class="fa fa-users fa-lg"></i> New Spellbook
+                    </li>
+                </a>
+                <a ng-href="#!/preparespells">
+                    <li ng-class="{active: ifUrlIs('/preparespells')}">
+                        <i class="fa fa-users fa-lg"></i> Prepare Spells
                     </li>
                 </a>
                 <a ng-href="#">
                     <li>
-                        <i class="fa fa-user fa-lg"></i> Profile
+                        <i class="fa fa-user-circle fa-lg"></i> Profile
                     </li>
                 </a>
                 <a ng-href="#!/logout">
                     <li>
-                        <i class="fa fa-users fa-lg"></i> Logout
+                        <i class="fa fa-times fa-lg"></i> Logout
                     </li>
                 </a>
             </ul>

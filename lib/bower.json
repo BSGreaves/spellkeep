@@ -30,7 +30,9 @@
     "jquery": "^3.2.1",
     "ramda": "^0.23.0",
     "rpg-awesome": "^1.0.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "angular-filter": "^0.5.16",
+    "ngToast": "ngtoast#^2.0.0"
   },
   "resolutions": {
     "angular": "^1.6.4"
