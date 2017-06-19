@@ -1,0 +1,78 @@
+<nav class="navbar-default navbar top-nav">
+	<div class="row">
+		<div class="row no-left-margin">
+			<div class="col-xs-4 text-center">
+				<h4>In Spellbook</h3>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h4>Description</h3>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h4>All Spells</h3>
+			</div>
+		</div>
+	</div>
+</nav>
+<div class="row">
+	<div class="col-xs-4">
+		<ul class="list-group">
+	  	<li class="list-group-item">
+	   		<span class="badge">14</span>
+				Cantrips Remaining
+	  	</li>
+	  	<li class="list-group-item">
+	   		<span class="badge">22</span>
+				1st Level Spells Remaining
+			</li>
+		</ul>
+		<div class="scrollOverflow">
+			<uib-accordion close-others="true">
+			<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | orderBy: ['level'] | limitTo: 20">
+				<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
+					<input class="btn btn-primary" type="button" value="Delete from Spellbook" ng-click="deleteFromSpellbook(spell.id); $event.preventDefault();">
+				</div>
+			</div>
+			</uib-accordion>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<div class="panel panel-default spell-desc-cont">
+			<div class="panel-heading">
+				<h3 class="panel-title">{{spellDescription.name}}</h3>
+			</div>
+			<div class="panel-body spell-desc-cont">
+				<div ng-if="spellSelected">
+					<p>School: {{spellDescription.school.name}}</p>
+					<p>Level: {{spellDescription.level}}</p>
+					<p>Class: <span ng-repeat="class in spellDescription.classes">{{class.name}} </span></p>
+					<p>Casting Time: {{spellDescription.casting_time}}</p>
+					<p>Range: {{spellDescription.range}}</p>
+					<p>Duration: {{spellDescription.duration}}</p>
+					<p>Ritual: {{spellDescription.ritual}}</p>
+					<p>Page: {{spellDescription.page}}</p>
+					<p>Concentration: {{spellDescription.concentration}}</p>
+					<p>Components: <span ng-repeat="component in spellDescription.components">{{component}} </span></p>
+					<p>Description: {{spellDescription.desc[0]}}</p>
+					<p ng-if="spellDescription.higher_level">Higher Level: {{spellDescription.higher_level[0]}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<div class="scrollOverflow">
+
+		<div class="form-group">
+    	<input type="text" class="form-control" ng-model="searchIndex" placeholder="Search...">
+	  </div>
+
+			<uib-accordion close-others="true">
+				<div ng-click="setDescription(spell)" ng-repeat="spell in spellIndex | filter: searchIndex |filter: currChar.primaryClass: class | filter: spellExistsInAnotherArray:spellsKnown | orderBy: ['level'] | limitTo: 20">
+					<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
+						<input class="btn btn-primary" type="button" value="Write to Spellbook" ng-click="writeToSpellbook(spell); $event.preventDefault();">
+					</div>
+				</div>
+			</uib-accordion>
+
+		</div>
+	</div>
+</div>

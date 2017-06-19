@@ -48,7 +48,7 @@ app.config(function($routeProvider) {
     controller: "ModifyStatsCtrl",
     resolve: {isAuth}
   })
-  .when("/preparedspells", {
+  .when("/preparespells", {
     templateUrl: "partials/spells-prepared.html",
     controller: "PreparedSpellsCtrl",
     resolve: {isAuth}
@@ -56,6 +56,11 @@ app.config(function($routeProvider) {
   .when("/spellbook", {
     templateUrl: "partials/spellbook.html",
     controller: "SpellbookCtrl",
+    resolve: {isAuth}
+  })
+  .when("/newspellbook", {
+    templateUrl: "partials/newSpellbook.html",
+    controller: "NewSpellbookCtrl",
     resolve: {isAuth}
   })
   .when("/newcharacter", {
