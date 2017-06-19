@@ -1,15 +1,27 @@
 app.controller("NewSpellbookCtrl", function($filter, $scope, $rootScope, CharacterFactory, DnDAPIFactory, SpellIndexFactory, SpellsKnownFactory) {
 
+    $scope.currChar = {};
+    $scope.currSpellbook = {};
     $scope.spellIndex = [];
     $scope.spellsKnown = [];
-    $scope.currChar = {};
     $scope.spellSelected = false;
     $scope.spellDescription = {
         name: "Select a Spell"
     };
     let cantripLimit = 3;
     let firstLvlLimit = 6;
-    $scope.searchIndex = "";
+
+    CharacterFactory.getSingleCharacter($rootScope.user.activeChar)
+    .then((result => {
+        $scope.currChar = result;
+        return DnDAPIFactory.getStatsByLvl($scope.currChar.primaryClass.toLowerCase(), $scope.currChar.primaryClassLvl);
+    }), (error => console.log("Error in getSingleCharacter in OverviewCtrl", error)))
+    .then((result => {
+        Object.assign($scope.currChar, result.data);
+        return SpellbookFactory.getAllCharSpellbooks($scope.currChar.id);
+    }), (error => console.log("Error in getStatsByLvl in OverviewCtrl", error)))
+    .then(result => $scope.currSpellbook = result[0])
+    .catch(error => console.log("Error in getAllCharSpellbooks in OverviewCtrl", error));
 
     $scope.writeToSpellbook = newSpell => {
         console.log(newSpell);
@@ -50,12 +62,12 @@ app.controller("NewSpellbookCtrl", function($filter, $scope, $rootScope, Charact
 
     CharacterFactory.getSingleCharacter($rootScope.user.activeChar)
         .then((result => {
-                $scope.currChar = result;
-                return DnDAPIFactory.getStatsByLvl($scope.currChar.primaryClass.toLowerCase(), $scope.currChar.primaryClassLvl);}),
+            $scope.currChar = result;
+            return DnDAPIFactory.getStatsByLvl($scope.currChar.primaryClass.toLowerCase(), $scope.currChar.primaryClassLvl);}),
             (error => console.log("Error in getSingleCharacter in NewSpellbookCtrl", error)))
         .then((result => {
-                Object.assign($scope.currChar, result.data);
-                calcCharStats();}),
+            Object.assign($scope.currChar, result.data);
+            }),
             (error => console.log("Error in getStatsByLvl in NewSpellbookCtrl", error)));
 
     $scope.setDescription = (spell) => {
@@ -75,31 +87,6 @@ app.controller("NewSpellbookCtrl", function($filter, $scope, $rootScope, Charact
             return $scope.currChar.spellcasting[key] > 0;
         }).length) - 1;
     };
-
-    $scope.filterIndexedSpells = (spellLvl) => {
-        console.log("SpellObj", spellLvl);
-        let passed = true;
-        if (spellLvl > $scope.currChar.maxCastingLevel) {
-            passed = false;
-        }
-        return passed;
-    };
-
-    //Needs to be tested further
-    $scope.isInKnown = (spellIndex) => {
-        let result = true;
-        console.log("Working");
-        $scope.spellsKnown.forEach(spell => {
-            if (spell.index === spellIndex) {
-                console.log("FALSE FALSE FALSE");
-                console.log("spellIndex", spellIndex, "knownSpellIndex", spell.index, spell);
-                result = false;
-            }
-        });
-    return result;
-    };
-
-
 
 
 });

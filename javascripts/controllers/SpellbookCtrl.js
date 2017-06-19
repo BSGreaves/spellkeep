@@ -61,17 +61,11 @@ app.controller("SpellbookCtrl", function($filter, $scope, $rootScope, CharacterF
         .catch(error => console.log("Error in getSingleAPISpell in SpellbookCtrl", error));
     };
 
-    //Needs to be tested further
-    $scope.isInKnown = (spellIndex) => {
-        let result = true;
-        console.log("Working");
-        $scope.spellsKnown.forEach(spell => {
-            if (spell.index === spellIndex) {
-                console.log("FALSE FALSE FALSE");
-                console.log("spellIndex", spellIndex, "knownSpellIndex", spell.index, spell);
-                result = false;
-            }
-        });
-    return result;
+    let calcCharStats = () => {
+        console.log(("CurrChar after getting stats", $scope.currChar));
+        console.log(("CurrChar after getting stats", $scope.currChar.spellcasting));
+        $scope.currChar.maxCastingLevel = (Object.keys($scope.currChar.spellcasting).filter(key => {
+            return $scope.currChar.spellcasting[key] > 0;
+        }).length) - 1;
     };
 });

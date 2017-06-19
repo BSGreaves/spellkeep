@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+	<div class="panel-heading" id="modal-title">
+		Cast Spell
+	</div>
+	<div class="panel-body" id="modal-body">
+		<div class="col-xs-8 col-xs-offset-2">
+			Select a Spell Slot
+			<select class="form-control" ng-model="selectedSpellSlot">
+				<option ng-disabled="!spellbook.lvl1Rem || spell.level > 1" value="1">Level 1 ({{spellbook.lvl1Rem}}/{{char.spellcasting.spell_slots_level_1}})</option>
+				<option ng-disabled="!spellbook.lvl2Rem || spell.level > 2" value="2">Level 2 ({{spellbook.lvl2Rem}}/{{char.spellcasting.spell_slots_level_2}})</option>
+				<option ng-disabled="!spellbook.lvl3Rem || spell.level > 3" value="3">Level 3 ({{spellbook.lvl3Rem}}/{{char.spellcasting.spell_slots_level_3}})</option>
+				<option ng-disabled="!spellbook.lvl4Rem || spell.level > 4" value="4">Level 4 ({{spellbook.lvl4Rem}}/{{char.spellcasting.spell_slots_level_4}})</option>
+				<option ng-disabled="!spellbook.lvl5Rem || spell.level > 5" value="5">Level 5 ({{spellbook.lvl5Rem}}/{{char.spellcasting.spell_slots_level_5}})</option>
+				<option ng-disabled="!spellbook.lvl6Rem || spell.level > 6" value="6">Level 6 ({{spellbook.lvl6Rem}}/{{char.spellcasting.spell_slots_level_6}})</option>
+				<option ng-disabled="!spellbook.lvl7Rem || spell.level > 7" value="7">Level 7 ({{spellbook.lvl7Rem}}/{{char.spellcasting.spell_slots_level_7}})</option>
+				<option ng-disabled="!spellbook.lvl8Rem || spell.level > 8" value="8">Level 8 ({{spellbook.lvl8Rem}}/{{char.spellcasting.spell_slots_level_8}})</option>
+				<option ng-disabled="!spellbook.lvl9Rem" value="9">Level 9 ({{spellbook.lvl9Rem}}/{{char.spellcasting.spell_slots_level_9}})</option>
+			</select>
+			<input class="btn btn-primary" type="button" value="Cast Spell" ng-click="castSpell()">
+			<input class="btn btn-primary" type="button" value="Cancel" ng-click="cancel()">
+		</div>
+	</div>
+</div>

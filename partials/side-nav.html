@@ -12,7 +12,7 @@
                     </li>
                 </a>
                 <ul class="sub-menu collapse" id="products" uib-collapse="overviewCollapsed">
-                    <a ng-href="#!/spellbook"><li ng-class="{active: ifUrlIs('/spellbook')}">Spellbook</li></a>
+                    <a ng-href="#!/spellbook"><li ng-class="{active: ifUrlIs('/spellbook') || ifUrlIs('/newspellbook')}">Spellbook</li></a>
                     <a ng-href="#"><li>Inventory</li></a>
                     <a ng-href="#"><li>Rest</li></a>
                 </ul>
@@ -44,11 +44,6 @@
                 <a ng-href="#!/newcharacter">
                     <li ng-class="{active: ifUrlIs('/newcharacter')}">
                         <i class="fa fa-users fa-lg"></i> New Character
-                    </li>
-                </a>
-                <a ng-href="#!/newspellbook">
-                    <li ng-class="{active: ifUrlIs('/newspellbook')}">
-                        <i class="fa fa-users fa-lg"></i> New Spellbook
                     </li>
                 </a>
                 <a ng-href="#!/preparespells">
