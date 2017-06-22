@@ -47,11 +47,10 @@ app.factory("CharacterFactory", function($q, $http, FIREBASE_CONFIG) {
 	};
 
 	let editCharacter = editedChar => {
+		let editId = editedChar.id;
+		delete editedChar.id;
 		return $q((resolve, reject) => {
-			$http.put(`${FIREBASE_CONFIG.databaseURL}/characters/${editedChar.id}.json`,
-				JSON.stringify({
-				//CHAR OBJ HERE
-				}))
+			$http.put(`${FIREBASE_CONFIG.databaseURL}/characters/${editId}.json`, angular.toJson(editedChar))
 			.then(result => resolve(result))
 			.catch(error => reject(error));
 		});

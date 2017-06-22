@@ -1,4 +1,4 @@
-app.controller("SpellbookCtrl", function($filter, $scope, $rootScope, CharacterFactory, DnDAPIFactory, SpellIndexFactory, SpellsKnownFactory) {
+app.controller("SpellbookCtrl", function($filter, $location, $scope, $rootScope, CharacterFactory, DnDAPIFactory, SpellIndexFactory, SpellsKnownFactory) {
 
     $scope.spellIndex = [];
     $scope.spellsKnown = [];
@@ -11,12 +11,10 @@ app.controller("SpellbookCtrl", function($filter, $scope, $rootScope, CharacterF
     };
 
     $scope.writeToSpellbook = newSpell => {
-        console.log(newSpell);
         delete newSpell.id;
         newSpell.prepared = false;
         newSpell.sbid = $rootScope.user.activeSpellbook;
         newSpell.index = parseInt(newSpell.url.split("/").pop());
-        console.log(newSpell);
         SpellsKnownFactory.postNewKnownSpell(newSpell)
             .then(result => loadDOM())
             .catch(error => console.log("Error in writeToSpellbook/postNewKnownSpell in SpellbookCtrl", error));
@@ -62,8 +60,6 @@ app.controller("SpellbookCtrl", function($filter, $scope, $rootScope, CharacterF
     };
 
     let calcCharStats = () => {
-        console.log(("CurrChar after getting stats", $scope.currChar));
-        console.log(("CurrChar after getting stats", $scope.currChar.spellcasting));
         $scope.currChar.maxCastingLevel = (Object.keys($scope.currChar.spellcasting).filter(key => {
             return $scope.currChar.spellcasting[key] > 0;
         }).length) - 1;

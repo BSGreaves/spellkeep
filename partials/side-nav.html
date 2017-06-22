@@ -14,7 +14,7 @@
                 <ul class="sub-menu collapse" id="products" uib-collapse="overviewCollapsed">
                     <a ng-href="#!/spellbook"><li ng-class="{active: ifUrlIs('/spellbook') || ifUrlIs('/newspellbook')}">Spellbook</li></a>
                     <a ng-href="#"><li>Inventory</li></a>
-                    <a ng-href="#"><li>Rest</li></a>
+                    <a ng-href="#!/rest"><li>Rest</li></a>
                 </ul>
                 <a ng-href="#!/viewcharacter"">
                     <li class="collapsed" ng-click="characterCollapsed = !characterCollapsed" ng-class="{active: ifUrlIs('/viewcharacter')}">
@@ -22,7 +22,7 @@
                     </li>
                 </a>
                 <ul class="sub-menu collapse" id="service" uib-collapse="characterCollapsed">
-                    <a ng-href="#"><li>Level Up</li></a>
+                    <a ng-href="#!/levelup"><li>Level Up</li></a>
                     <a ng-href="#!/modifyspellslots"><li ng-class="{active: ifUrlIs('/modifyspellslots')}">Modify Stats</li></a>
                     <a ng-href="#!/modifystats"><li ng-class="{active: ifUrlIs('/modifystats')}">Modify Spell Slots</li></a>
                 </ul>
