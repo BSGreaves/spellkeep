@@ -18,10 +18,10 @@ app.factory("UserFactory", function($http, $q, FIREBASE_CONFIG){
   };
 
   let editUser = editedUser => {
-    deleteId = editedUser.id;
+    let holderObj = JSON.parse(JSON.stringify(editedUser));
     delete editedUser.id;
     return $q((resolve, reject) => {
-      $http.put(`${FIREBASE_CONFIG.databaseURL}/users/${deleteId}.json`, angular.toJson({editedUser}))
+      $http.put(`${FIREBASE_CONFIG.databaseURL}/users/${holderObj.id}.json`, angular.toJson(editedUser))
       .then(result => resolve(result))
       .catch(error => reject(error));
     });
@@ -47,6 +47,6 @@ app.factory("UserFactory", function($http, $q, FIREBASE_CONFIG){
     });
   };
 
-  return {addUser:addUser, getUser:getUser};
+  return {addUser:addUser, getUser:getUser, editUser:editUser};
 
 });

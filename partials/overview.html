@@ -16,12 +16,12 @@
 <div class="row">
 	<div class="col-xs-4">
 		<div class="char-img-div">
-			<img src="./img/edwin.jpg" alt="Edwin" class="img-responsive center-block char-img">
+			<img src="{{currChar.imgUrl}}" alt="{{currChar.name}}" class="img-responsive center-block char-img">
 		</div>
 		<div class="col-xs-12">
 			<div class="panel panel-default char-panel">
 				<div class="panel-heading">
-					<h3 class="panel-title">Name</h3>
+					<h3 class="panel-title">{{currChar.name}}</h3>
 				</div>
 				<div class="panel-body">
 					<p>Class: {{currChar.primaryClass}}</p>

@@ -17,19 +17,15 @@
 	<div class="col-xs-4">
 		<ul class="list-group">
 	  	<li class="list-group-item">
-	   		<span class="badge">3</span>
-				Cantrips Remaining
+	   		<span class="badge">2/2</span>
+				New Spells Remaining
 	  	</li>
-	  	<li class="list-group-item">
-	   		<span class="badge">4</span>
-				1st Level Spells Remaining
-			</li>
 		</ul>
 		<div class="scrollOverflow">
 			<uib-accordion close-others="true">
 			<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | orderBy: ['level'] | limitTo: 20">
 				<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
-					<input class="btn btn-primary" type="button" value="Delete from Spellbook" ng-click="deleteFromSpellbook(spell.id); $event.preventDefault();">
+					<input class="btn btn-primary" type="button" value="Delete from Spellbook" ng-click="deleteFromSpellbook(spell.id)">
 				</div>
 			</div>
 			</uib-accordion>
@@ -61,19 +57,16 @@
 	</div>
 	<div class="col-xs-4">
 		<div class="scrollOverflow">
-
-		<div class="form-group">
-    	<input type="text" class="form-control" ng-model="searchIndex" placeholder="Search...">
-	  </div>
-
+			<div class="form-group">
+	    	<input type="text" class="form-control" ng-model="searchIndex" placeholder="Search...">
+		  </div>
 			<uib-accordion close-others="true">
 				<div ng-click="setDescription(spell)" ng-repeat="spell in spellIndex | filter: searchIndex |filter: currChar.primaryClass: class | filter: spellExistsInAnotherArray:spellsKnown | orderBy: ['level'] | limitTo: 20">
 					<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
-						<input class="btn btn-primary" type="button" value="Write to Spellbook" ng-click="writeToSpellbook(spell); $event.preventDefault();">
+						<input class="btn btn-primary" type="button" value="Write to Spellbook" ng-click="writeToSpellbook(spell)">
 					</div>
 				</div>
 			</uib-accordion>
-
 		</div>
 	</div>
 </div>

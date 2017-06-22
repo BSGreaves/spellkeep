@@ -1,0 +1,90 @@
+<nav class="navbar-default navbar top-nav">
+	<div class="row top-nav">
+		<div class="row no-left-margin">
+			<div class="col-xs-4 text-center">
+				<h4>After Level Up</h3>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h4>Spell Slots</h3>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h4>Ability Scores</h3>
+			</div>
+		</div>
+	</div>
+</nav>
+<div class="row">
+	<div class="col-xs-4">
+		<div class="panel-body">
+			<p>Class: {{currChar.primaryClass}}</p>
+			<p>Level: {{newLevelChar.level}}</p>
+			<p>Spell DC: {{calcSpellDC()}}</p>
+			<p>Proficiency Bonus: +{{currChar.prof_bonus}}</p>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<ul class="list-group">
+			<li class="list-group-item">Cantrips Known<span class="pull-right">{{newLevelChar.spellcasting.cantrips_known}}</span></li>
+		  <li class="list-group-item">Level 1<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_1}}</span></li>
+		  <li class="list-group-item">Level 2<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_2}}</span></li>
+		  <li class="list-group-item">Level 3<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_3}}</span></li>
+		  <li class="list-group-item">Level 4<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_4}}</span></li>
+		  <li class="list-group-item">Level 5<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_5}}</span></li>
+		  <li class="list-group-item">Level 6<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_6}}</span></li>
+		  <li class="list-group-item">Level 7<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_7}}</span></li>
+		  <li class="list-group-item">Level 8<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_8}}</span></li>
+		  <li class="list-group-item">Level 9<span class="pull-right">{{newLevelChar.spellcasting.spell_slots_level_9}}</span></li>
+		</ul>
+	</div>
+	<div class="col-xs-4">
+		<div ng-if="newLevelChar.ability_score_bonuses === 0">
+		No Ability Score Bonuses for this Level
+		</div>
+		<div ng-if="newLevelChar.ability_score_bonuses > 0">
+			<div class="radio">
+		  	<label><input type="radio" name="optradio" ng-model="pointDistribution" value="bundle" checked>+2 Points in 1 Atrribute</label>
+			</div>
+			<div class="radio">
+		 		<label><input type="radio" name="optradio" ng-model="pointDistribution" value="split">+1 Point in 2 Attributes</label>
+			</div>
+			<div class="row" ng-if="pointDistribution === 'bundle'">
+				<div class="col-xs-12" >
+					<select class="form-control" ng-model="bundleSelected" ng-change="calcBundleStats()">
+				    <option selected disabled value="">Select An Ability</option>
+  					<option value="str">Strength</option>
+  					<option value="con">Constitution</option>
+  					<option value="dex">Dexterity</option>
+  					<option value="wis">Wisdom</option>
+  					<option value="int">Intelligence</option>
+  					<option value="cha">Charisma</option>
+					</select>
+				</div>
+			</div>
+			<div class="row" ng-if="pointDistribution === 'split'">
+				<div class="col-xs-6" >
+					<select class="form-control" ng-model="splitSelected1" ng-change="calcSplitStats()">
+				    <option selected disabled value="">Select An Ability</option>
+  					<option value="str">Strength</option>
+  					<option value="con">Constitution</option>
+  					<option value="dex">Dexterity</option>
+  					<option value="wis">Wisdom</option>
+  					<option value="int">Intelligence</option>
+  					<option value="cha">Charisma</option>
+					</select>
+				</div>
+				<div class="col-xs-6" >
+					<select class="form-control" ng-model="splitSelected2" ng-change="calcSplitStats()">
+				    <option selected disabled value="">Select An Ability</option>
+  					<option value="str">Strength</option>
+  					<option value="con">Constitution</option>
+  					<option value="dex">Dexterity</option>
+  					<option value="wis">Wisdom</option>
+  					<option value="int">Intelligence</option>
+  					<option value="cha">Charisma</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<input class="btn btn-primary" type="submit" value="Level Up" ng-click="levelUpCharacter()">
+	</div>
+</div>

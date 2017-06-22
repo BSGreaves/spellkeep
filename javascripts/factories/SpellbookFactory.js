@@ -18,6 +18,14 @@ app.factory("SpellbookFactory", function($q, $http, FIREBASE_CONFIG) {
 		});
 	};
 
+	let postNewSpellbook = newSpellbook => {
+		return $q((resolve, reject) => {
+			$http.post(`${FIREBASE_CONFIG.databaseURL}/spellbooks.json`, JSON.stringify(newSpellbook))
+			.then(result => resolve(result))
+			.catch(error => reject(error));
+		});
+	};
+
 	let editSpellbook = editedSpellbook => {
 		let editId = editedSpellbook.id;
 		delete editedSpellbook.id;
@@ -28,5 +36,13 @@ app.factory("SpellbookFactory", function($q, $http, FIREBASE_CONFIG) {
 		});
 	};
 
-	return {getAllCharSpellbooks:getAllCharSpellbooks, editSpellbook:editSpellbook};
+	let deleteSpellbook = id => {
+		return $q((resolve, reject) => {
+			$http.delete(`${FIREBASE_CONFIG.databaseURL}/spellbooks/${id}.json`)
+			.then(result => resolve(result))
+			.catch(error => reject(error));
+		});
+	};
+
+	return {getAllCharSpellbooks:getAllCharSpellbooks, postNewSpellbook:postNewSpellbook, editSpellbook:editSpellbook, deleteSpellbook:deleteSpellbook};
 });

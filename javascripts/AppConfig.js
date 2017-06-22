@@ -58,6 +58,11 @@ app.config(function($routeProvider) {
     controller: "SpellbookCtrl",
     resolve: {isAuth}
   })
+  .when("/levelupspellbook", {
+    templateUrl: "partials/level-up-spellbook.html",
+    controller: "LevelUpSpellbookCtrl",
+    resolve: {isAuth}
+  })
   .when("/newspellbook", {
     templateUrl: "partials/newSpellbook.html",
     controller: "NewSpellbookCtrl",
@@ -66,6 +71,16 @@ app.config(function($routeProvider) {
   .when("/newcharacter", {
     templateUrl: "partials/new-character.html",
     controller: "NewCharacterCtrl",
+    resolve: {isAuth}
+  })
+  .when("/levelup", {
+    templateUrl: "partials/level-up.html",
+    controller: "LevelUpCtrl",
+    resolve: {isAuth}
+  })
+  .when("/rest", {
+    templateUrl: "partials/rest.html",
+    controller: "RestCtrl",
     resolve: {isAuth}
   })
 	.when("/auth", {

@@ -1,4 +1,4 @@
-app.controller("NewCharacterCtrl", function($scope, $rootScope, CharacterFactory) {
+app.controller("NewCharacterCtrl", function($location, $scope, $rootScope, CharacterFactory, DnDAPIFactory, SpellbookFactory, UserFactory) {
 
 	$scope.status = {
     isopen: false
@@ -6,8 +6,8 @@ app.controller("NewCharacterCtrl", function($scope, $rootScope, CharacterFactory
 
   $scope.newChar = {
 		charName: "",
-		uid: "",
-		imgUrl: "http://img07.deviantart.net/b011/i/2012/360/3/5/wise_old_wizard_by_xxtokenxx-d5pah0w.jpg",
+		uid: $rootScope.user.uid,
+		imgUrl: "",
 		profBonus: 0,
 		spellDCBonus: 0,
 		primaryClass: "",
@@ -25,11 +25,41 @@ app.controller("NewCharacterCtrl", function($scope, $rootScope, CharacterFactory
   };
 
 	$scope.postNewCharacter = () => {
-		$scope.newChar.uid = $rootScope.user.uid;
-		console.log($scope.newChar);
+		let newCharID = "";
+		let newSpellbookID = "";
 		CharacterFactory.postNewCharacter($scope.newChar)
-		.then(result => console.log(result))
-		.catch(error => console.log("Error in postNewCharacter in NewCharacterCtrl", error));
+		.then((result => {
+			newCharID = result.data.name;
+			return DnDAPIFactory.getStatsByLvl($scope.newChar.primaryClass.toLowerCase(), 1);
+		}),
+		(error => console.log("Error in postNewCharacter in NewCharacterCtrl", error)))
+		.then((result => {
+			result = result.data;
+			let newSpellbook = {
+				charid: newCharID,
+				uid: $rootScope.user.uid,
+				class: $scope.newChar.primaryClass,
+				lvl1Rem: result.spellcasting.spell_slots_level_1,
+				lvl2Rem: result.spellcasting.spell_slots_level_2,
+				lvl3Rem: result.spellcasting.spell_slots_level_3,
+				lvl4Rem: result.spellcasting.spell_slots_level_4,
+				lvl5Rem: result.spellcasting.spell_slots_level_5,
+				lvl6Rem: result.spellcasting.spell_slots_level_6,
+				lvl7Rem: result.spellcasting.spell_slots_level_7,
+				lvl8Rem: result.spellcasting.spell_slots_level_8,
+				lvl9Rem: result.spellcasting.spell_slots_level_9
+			};
+			return SpellbookFactory.postNewSpellbook(newSpellbook);
+		}),
+		(error => console.log("Error in getStatsByLvl in NewCharacterCtrl", error)))
+		.then((result => {
+			newSpellbookID = result.data.name;
+			$rootScope.user.activeSpellbook = newSpellbookID;
+			$rootScope.user.activeChar = newCharID;
+			return UserFactory.editUser($rootScope.user);
+		}),
+		(error => console.log("Error in postNewSpellbook in NewCharacterCtrl", error)))
+		.then(result => $location.url("/newspellbook"))
+		.catch(error => console.log("Error in editUser in NewCharacterCtrl", error));
 	};
-
 });
