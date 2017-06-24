@@ -37,19 +37,19 @@
 		</ul>
 	</div>
 	<div class="col-xs-4">
-		<div ng-if="newLevelChar.ability_score_bonuses === 0">
+		<div ng-if="!newLevelChar.receivesAbilityScoreImprovement">
 		No Ability Score Bonuses for this Level
 		</div>
-		<div ng-if="newLevelChar.ability_score_bonuses > 0">
+		<div ng-if="newLevelChar.receivesAbilityScoreImprovement">
 			<div class="radio">
-		  	<label><input type="radio" name="optradio" ng-model="pointDistribution" value="bundle" checked>+2 Points in 1 Atrribute</label>
+		  	<label><input type="radio" name="optradio" ng-model="pointDistribution" value="bundle">+2 Points in 1 Atrribute</label>
 			</div>
 			<div class="radio">
 		 		<label><input type="radio" name="optradio" ng-model="pointDistribution" value="split">+1 Point in 2 Attributes</label>
 			</div>
 			<div class="row" ng-if="pointDistribution === 'bundle'">
 				<div class="col-xs-12" >
-					<select class="form-control" ng-model="bundleSelected" ng-change="calcBundleStats()">
+					<select class="form-control" ng-model="bundleSelected" ng-change="calcBundleStats()" required>
 				    <option selected disabled value="">Select An Ability</option>
   					<option value="str">Strength</option>
   					<option value="con">Constitution</option>
@@ -62,7 +62,7 @@
 			</div>
 			<div class="row" ng-if="pointDistribution === 'split'">
 				<div class="col-xs-6" >
-					<select class="form-control" ng-model="splitSelected1" ng-change="calcSplitStats()">
+					<select class="form-control" ng-model="splitSelected1" ng-change="calcSplitStats()" required>
 				    <option selected disabled value="">Select An Ability</option>
   					<option value="str">Strength</option>
   					<option value="con">Constitution</option>

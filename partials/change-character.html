@@ -26,7 +26,9 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    <a target="_blank"><img class="img-responsive center-block" src="{{character.imgUrl}}" alt="{{character.name}}"></a>
+                    <div class="char-img-div">
+                        <img src="{{character.imgUrl}}" alt="{{character.name}}" class="img-responsive center-block char-img">
+                    </div>
                     <input class="btn btn-primary" type="button" value="Select" ng-click="setActiveCharacter(character.id)">
                 </div>
             </div>

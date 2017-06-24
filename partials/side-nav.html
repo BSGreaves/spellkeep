@@ -11,7 +11,7 @@
                         <i class="fa fa-gear fa-lg"></i> Quest<span class="arrow"></span>
                     </li>
                 </a>
-                <ul class="sub-menu collapse" id="products" uib-collapse="overviewCollapsed">
+                <ul class="sub-menu collapse" uib-collapse="overviewCollapsed">
                     <a ng-href="#!/spellbook"><li ng-class="{active: ifUrlIs('/spellbook') || ifUrlIs('/newspellbook')}">Spellbook</li></a>
                     <a ng-href="#"><li>Inventory</li></a>
                     <a ng-href="#!/rest"><li>Rest</li></a>
@@ -21,8 +21,8 @@
                         <i class="fa fa-address-card fa-lg"></i> Character<span class="arrow"></span>
                     </li>
                 </a>
-                <ul class="sub-menu collapse" id="service" uib-collapse="characterCollapsed">
-                    <a ng-href="#!/levelup"><li>Level Up</li></a>
+                <ul class="sub-menu collapse" uib-collapse="characterCollapsed">
+                    <a ng-href="#!/levelup"><li ng-class="{active: ifUrlIs('/levelup')}">Level Up</li></a>
                     <a ng-href="#!/modifyspellslots"><li ng-class="{active: ifUrlIs('/modifyspellslots')}">Modify Stats</li></a>
                     <a ng-href="#!/modifystats"><li ng-class="{active: ifUrlIs('/modifystats')}">Modify Spell Slots</li></a>
                 </ul>
@@ -31,7 +31,7 @@
                         <i class="fa fa-archive fa-lg"></i> Reference<span class="arrow"></span>
                     </li>
                 </a>
-                <ul class="sub-menu collapse" id="new" uib-collapse="referenceCollapsed">
+                <ul class="sub-menu collapse" uib-collapse="referenceCollapsed">
                     <li>New New 1</li>
                     <li>New New 2</li>
                     <li>New New 3</li>
@@ -44,11 +44,6 @@
                 <a ng-href="#!/newcharacter">
                     <li ng-class="{active: ifUrlIs('/newcharacter')}">
                         <i class="fa fa-users fa-lg"></i> New Character
-                    </li>
-                </a>
-                <a ng-href="#!/preparespells">
-                    <li ng-class="{active: ifUrlIs('/preparespells')}">
-                        <i class="fa fa-users fa-lg"></i> Prepare Spells
                     </li>
                 </a>
                 <a ng-href="#">

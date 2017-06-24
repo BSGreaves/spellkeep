@@ -18,10 +18,23 @@ app.controller("LevelUpCtrl", function($location, $rootScope, $scope, CharacterF
   	$scope.currSpellbook = result[0];
   	return DnDAPIFactory.getStatsByLvl($scope.currChar.primaryClass.toLowerCase(), ($scope.currChar.primaryClassLvl + 1));
   }), (error => console.log("Error in getAllCharSpellbooks in OverviewCtrl", error)))
-	.then(result => $scope.newLevelChar = result.data)
+	.then(result => {
+		$scope.newLevelChar = result.data;
+		$scope.newLevelChar.receivesAbilityScoreImprovement = checkForAbilityScoreImprovement($scope.newLevelChar.features);
+	})
   .catch(error => console.log("Error in getAllCharSpellbooks in OverviewCtrl", error));
 
 	//Derived Stats
+
+	let checkForAbilityScoreImprovement = featuresArray => {
+		let answer = false;
+		featuresArray.forEach(feature => {
+			if (feature.name.includes("Ability Score Improvement")) {
+				answer = true;			}
+		});
+		return answer;
+	};
+
 	$scope.calcSpellDC = () => {
 		return Math.floor(8 + $scope.currChar.prof_bonus + (($scope.currChar.int - 10)/2));
 	};
@@ -38,11 +51,11 @@ app.controller("LevelUpCtrl", function($location, $rootScope, $scope, CharacterF
 	$scope.levelUpCharacter = () => {
 		$scope.currChar.primaryClassLvl++;
 		if ($scope.pointDistribution === 'bundle' && $scope.newLevelChar.ability_score_bonuses > 0) {
-			$scope.currChar[bundleSelected] = ($scope.currChar[bundleSelected] + 2);
+			$scope.currChar[$scope.bundleSelected] = ($scope.currChar[$scope.bundleSelected] + 2);
 		}
 		if ($scope.pointDistribution === 'split' && $scope.newLevelChar.ability_score_bonuses > 0) {
-			$scope.currChar[splitSelected1] = ($scope.currChar[splitSelected1] + 1);
-			$scope.currChar[splitSelected2] = ($scope.currChar[splitSelected2] + 1);
+			$scope.currChar[$scope.splitSelected1] = ($scope.currChar[$scope.splitSelected1] + 1);
+			$scope.currChar[$scope.splitSelected2] = ($scope.currChar[$scope.splitSelected2] + 1);
 		}
 		$scope.currSpellbook.lvl1Rem = $scope.newLevelChar.spellcasting.spell_slots_level_1;
 		$scope.currSpellbook.lvl2Rem = $scope.newLevelChar.spellcasting.spell_slots_level_2;
