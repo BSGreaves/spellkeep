@@ -1,7 +1,26 @@
-<div class="col-xs-4 col-xs-offset-4 top-offset">
+<!-- <div class="col-xs-4 col-xs-offset-4 top-offset">
   <input type="email" class="form-control form-spacing" placeholder="Email Address" ng-model="auth.email" required autofocus>
   <input type="password" class="form-control form-spacing" placeholder="Password" ng-model="auth.password"  required>
   <input type="text" class="form-control form-spacing" placeholder="Username" ng-model="auth.username" required>
   <a class="btn btn-lg btn-success col-xs-6" ng-click="loginUser()" >Login</a>
   <a class="btn btn-lg btn-primary col-xs-6" ng-click="registerUser()" >Register</a>
+</div> -->
+
+
+<div class="login-page">
+  <div class="form">
+    <form class="login-form">
+      <input type="text" placeholder="Username"/>
+      <input type="email" placeholder="Email" ng-model="auth.email" required autofocus />
+      <input type="password" placeholder="Password" ng-model="auth.password"  required />
+      <div class="row no-lr-margin">
+      	<div class="col-xs-5 no-lr-padding">
+      		<button ng-click="loginUser()">login</button>
+      	</div>
+      	<div class="col-xs-5 col-xs-offset-2 no-lr-padding">
+      		<button ng-click="registerUser()">register</button>
+      	</div>
+      </div>
+    </form>
+  </div>
 </div>

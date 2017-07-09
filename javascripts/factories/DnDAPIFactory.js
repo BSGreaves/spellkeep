@@ -2,7 +2,7 @@ app.factory("DnDAPIFactory", function($http, $q) {
 
 	let getAllAPISpells = () => {
 		return $q((resolve, reject) => {
-			$http.get(`http://dnd5eapi.co/api/spells/`)
+			$http.get(`https://spellkeep-proxy.herokuapp.com/api/spellKeep/spells/`)
 			.then(data => resolve(data))
 			.catch(error => reject(error));
 		});
@@ -18,7 +18,7 @@ app.factory("DnDAPIFactory", function($http, $q) {
 
 	let getStatsByLvl = (className, level) => {
 		return $q((resolve, reject) => {
-			$http.get(`http://dnd5eapi.co/api/classes/${className}/level/${level}`)
+			$http.get(`https://spellkeep-proxy.herokuapp.com/api/spellKeep/classes/${className}/level/${level}`)
 			.then(data => resolve(data))
 			.catch(error => reject(error));
 		});

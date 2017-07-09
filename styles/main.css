@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana; }
+
 html {
   font-size: 18px; }
 
@@ -5,15 +10,44 @@ html {
   header, main, footer {
     padding-left: 0; } }
 
-.spellKeepLogo {
-  height: 10vh; }
-
-.top-tab {
-  height: 10vh; }
-
-.top-nav {
+.nav-bar {
   border-radius: 0px !important;
-  height: 10vh; }
+  background-color: #2e353d;
+  color: #e1ffff;
+  height: 16vh;
+  margin-bottom: 10px; }
+
+.nav-bar .location-bar {
+  margin: 0px;
+  height: 8vh; }
+  .nav-bar .location-bar .location-label {
+    margin-top: 4px;
+    margin-bottom: 4px; }
+
+.nav-bar .desc-bar {
+  background-color: #4F5B69;
+  height: 8vh; }
+
+.single-row-nav-bar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+.vert-center-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+.vert-center-column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+.margin-auto {
+  margin: auto; }
+
+.no-top-padding {
+  padding-top: 0px !important; }
 
 .spell-desc-cont {
   height: 82vh; }
@@ -21,9 +55,6 @@ html {
 .scrollOverflow {
   height: 82vh;
   overflow: scroll; }
-
-.spellkeep {
-  font-family: "Great Vibes", cursive; }
 
 .btn-margin {
   margin: 0px 5px; }
@@ -37,30 +68,81 @@ html {
 .ability-cont {
   padding: 10px 0; }
 
+.margin-tb-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.no-lr-margin {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.no-lr-padding {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 .left-offset {
   margin-left: 200px; }
 
 .top-offset {
   margin-top: 150px; }
 
-.no-left-margin {
-  margin-left: 0; }
-
 .char-img-div {
   max-width: 100%;
   height: 250px; }
 
-.char-img {
+.char-img-div .char-img {
   max-height: 100%;
-  border-radius: 5px;
-  border: 3px solid grey; }
+  border-radius: 5px; }
 
 .char-panel {
   margin: 15px auto 0px auto; }
 
+.vertical-align {
+  display: flex;
+  align-items: center; }
+
+.panel-body .btn-row {
+  margin-top: 15px; }
+
+.btn-primary {
+  background-color: #e1ffff;
+  color: #23282e; }
+
+.btn-primary {
+  outline: 0;
+  background: #2e353d;
+  border: 0;
+  border-radius: 0px;
+  padding: 8px 14px;
+  color: #e1ffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer; }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background: #23282e; }
+
+.nav-bar .btn-primary {
+  background: #e1ffff;
+  color: #2e353d; }
+
+.nav-bar .btn-primary:hover, .nav-bar .btn-primary:active, .nav-bar .btn-primary:focus {
+  background: #CCFFFF; }
+
+.btn-danger {
+  outline: 0;
+  border: 0;
+  border-radius: 0px;
+  padding: 8px 14px;
+  color: #e1ffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer; }
+
 .nav-side-menu {
   overflow: auto;
-  font-family: verdana;
   font-size: 12px;
   font-weight: 200;
   background-color: #2e353d;
@@ -71,13 +153,21 @@ html {
   color: #e1ffff;
   left: 0px; }
 
-.nav-side-menu .spellKeepLogo {
+.nav-side-menu .icon {
+  height: 20px;
+  width: 20px;
+  display: inline;
+  margin-left: 15px; }
+
+.nav-side-menu .logo-div {
   background-color: #23282e;
-  line-height: 50px;
-  display: block;
   text-align: center;
-  font-size: 2.5em;
-  font-family: "Great Vibes", cursive; }
+  font-size: 3.2em;
+  font-family: "Great Vibes", cursive;
+  height: 16vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
 
 .nav-side-menu .toggle-btn {
   display: none; }
@@ -88,20 +178,7 @@ html {
   padding: 0px;
   margin: 0px;
   line-height: 35px;
-  cursor: pointer;
-  /*    
-    .collapsed{
-       .arrow:before{
-                 font-family: FontAwesome;
-                 content: "\f053";
-                 display: inline-block;
-                 padding-left:10px;
-                 padding-right: 10px;
-                 vertical-align: middle;
-                 float:right;
-            }
-     }
-*/ }
+  cursor: pointer; }
 
 .nav-side-menu ul :not(collapsed) .arrow:before,
 .nav-side-menu li :not(collapsed) .arrow:before {
@@ -137,15 +214,6 @@ html {
 .nav-side-menu ul .sub-menu li:hover,
 .nav-side-menu li .sub-menu li:hover {
   background-color: #020203; }
-
-.nav-side-menu ul .sub-menu li:before,
-.nav-side-menu li .sub-menu li:before {
-  font-family: FontAwesome;
-  content: "\f105";
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle; }
 
 .nav-side-menu li {
   padding-left: 0px;
@@ -196,7 +264,7 @@ html {
     color: #000;
     width: 40px;
     text-align: center; }
-  .spellKeepLogo {
+  .logo {
     text-align: left !important;
     font-size: 14px;
     padding-left: 20px;
@@ -206,6 +274,43 @@ html {
   .nav-side-menu .menu-list .menu-content {
     display: block; } }
 
-body {
-  margin: 0px;
-  padding: 0px; }
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto; }
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+
+.login-form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px; }
+
+.login-form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #2e353d;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #e1ffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer; }
+
+.login-form button:hover, .form button:active, .form button:focus {
+  background: #23282e; }
