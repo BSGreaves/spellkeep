@@ -1,0 +1,64 @@
+<nav class="navbar-default nav-bar">
+	<div class="row location-bar no-lr-margin vert-center-row">
+			<div class="col-xs-4 col-xs-offset-4 text-center vert-center-column">
+				<h3 class="location-label">Character</h3>
+			</div>
+			<div class="col-xs-4">
+			</div>
+	</div>
+	<div class="row desc-bar no-lr-margin vert-center-row">
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>Bio</h4>
+			</div>
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>Spell Slots</h4>
+			</div>
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>Abilities</h4>
+			</div>
+	</div>
+</nav>
+<div class="row no-lr-margin">
+	<div class="col-xs-4">
+		<div class="char-img-div">
+			<img src="{{currChar.imgUrl}}" alt="{{currChar.charName}}" class="img-responsive center-block char-img">
+		</div>
+		<div class="col-xs-12 no-lr-padding">
+			<div class="panel panel-default char-panel">
+				<div class="panel-heading">
+					<h3 class="panel-title text-center">{{currChar.charName}}</h3>
+				</div>
+				<div class="panel-body">
+					<p>{{currChar.primaryClass}}</p>
+					<p>Level {{currChar.primaryClassLvl}}</p>
+					<p>Spell DC: {{calcSpellDC()}}</p>
+					<p>Proficiency Bonus: +{{currChar.prof_bonus}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<ul class="list-group">
+		  <li class="list-group-item">Cantrips<span class="pull-right">At-will</span></li>
+		  <li class="list-group-item">Level 1<span class="pull-right">{{currSpellbook.lvl1Rem}}/{{currChar.spellcasting.spell_slots_level_1}}</span></li>
+		  <li class="list-group-item">Level 2<span class="pull-right">{{currSpellbook.lvl2Rem}}/{{currChar.spellcasting.spell_slots_level_2}}</span></li>
+		  <li class="list-group-item">Level 3<span class="pull-right">{{currSpellbook.lvl3Rem}}/{{currChar.spellcasting.spell_slots_level_3}}</span></li>
+		  <li class="list-group-item">Level 4<span class="pull-right">{{currSpellbook.lvl4Rem}}/{{currChar.spellcasting.spell_slots_level_4}}</span></li>
+		  <li class="list-group-item">Level 5<span class="pull-right">{{currSpellbook.lvl5Rem}}/{{currChar.spellcasting.spell_slots_level_5}}</span></li>
+		  <li class="list-group-item">Level 6<span class="pull-right">{{currSpellbook.lvl6Rem}}/{{currChar.spellcasting.spell_slots_level_6}}</span></li>
+		  <li class="list-group-item">Level 7<span class="pull-right">{{currSpellbook.lvl7Rem}}/{{currChar.spellcasting.spell_slots_level_7}}</span></li>
+		  <li class="list-group-item">Level 8<span class="pull-right">{{currSpellbook.lvl8Rem}}/{{currChar.spellcasting.spell_slots_level_8}}</span></li>
+		  <li class="list-group-item">Level 9<span class="pull-right">{{currSpellbook.lvl9Rem}}/{{currChar.spellcasting.spell_slots_level_9}}</span></li>
+		</ul>
+	</div>
+	<div class="col-xs-4">
+		<ul class="list-group">
+		  <li class="list-group-item">Strength<span class="pull-right">{{currChar.str}}</span></li>
+		  <li class="list-group-item">Dexterity<span class="pull-right">{{currChar.dex}}</span></li>
+		  <li class="list-group-item">Constitution<span class="pull-right">{{currChar.con}}</span></li>
+		  <li class="list-group-item">Wisdom<span class="pull-right">{{currChar.wis}}</span></li>
+		  <li class="list-group-item">Intelligence<span class="pull-right">{{currChar.int}}</span></li>
+		  <li class="list-group-item">Charisma<span class="pull-right">{{currChar.cha}}</span></li>
+		</ul>
+	</div>
+</div>
