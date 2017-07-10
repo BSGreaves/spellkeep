@@ -1,4 +1,4 @@
-app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, CharacterFactory, DnDAPIFactory, SpellbookFactory, SpellsKnownFactory) {
+app.controller("OverviewCtrl", function(ngToast, $uibModal, $rootScope, $scope, CharacterFactory, DnDAPIFactory, SpellbookFactory, SpellsKnownFactory) {
 
 	//Load currChar
 	$scope.currChar = {};
@@ -59,7 +59,13 @@ app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, Character
 	    SpellbookFactory.editSpellbook($scope.currSpellbook)
 	    .then((result => SpellbookFactory.getAllCharSpellbooks($scope.currChar.id)),
 	    	(error => console.log("Error in editSpellbook in OverviewCtrl", error)))
-	    .then(result => $scope.currSpellbook = result[0])
+	    .then(result => {
+	    	$scope.currSpellbook = result[0];
+	    	ngToast.create({
+  				className: 'info',
+  				content: `${spell.name} cast at Level ${selectedSpellSlot}!`
+				});
+	    })
   		.catch(error => console.log("Error in getAllCharSpellbooks in OverviewCtrl", error));
 	  }, function() {});
 	};

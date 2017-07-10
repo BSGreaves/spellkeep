@@ -1,4 +1,4 @@
-app.controller("ChangeCharacterCtrl", function($scope, $rootScope, CharacterFactory, SpellbookFactory, SpellsKnownFactory, UserFactory) {
+app.controller("ChangeCharacterCtrl", function(ngToast, $scope, $rootScope, CharacterFactory, SpellbookFactory, SpellsKnownFactory, UserFactory) {
 
 	$scope.allCharacters = [];
 
@@ -29,11 +29,17 @@ app.controller("ChangeCharacterCtrl", function($scope, $rootScope, CharacterFact
 			return CharacterFactory.deleteCharacter(char.id);
 		}),
 		(error => console.log("Error in getAllCharSpellbooks in ChangeCharacterCtrl", error)))
-		.then(result => getAllCharacters())
+		.then(result => {
+			getAllCharacters();
+			ngToast.create({
+				className: 'danger',
+				content: `${char.charName} Deleted!`
+			});
+		})
 		.catch(error => console.log("Error in deleteCharacter in ChangeCharacterCtrl", error));
 	};
 
-	$scope.setActiveCharacter = selectedCharId => {
+	$scope.setActiveCharacter = (selectedCharId, charName) => {
 		SpellbookFactory.getAllCharSpellbooks(selectedCharId)
 		.then((result => {
 			let firstSpellbook = result[0];
@@ -47,6 +53,10 @@ app.controller("ChangeCharacterCtrl", function($scope, $rootScope, CharacterFact
 		.then(result => {
 			$rootScope.user = result;
 			getAllCharacters();
+			ngToast.create({
+				className: 'info',
+				content: `${charName} Selected!`
+			});
 		})
 		.catch(error => console.log("Error in editUser in ChangeCharacterCtrl", error));
 	};
