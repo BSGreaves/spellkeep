@@ -67,8 +67,25 @@ html {
   padding-top: 0px !important;
 }
 
+.no-b-margin {
+  margin-bottom: 0px;
+}
+
 .spell-desc-cont {
   height:82vh;
+  font-size: 12px;
+  .list-group-item {
+    padding: 5px 12px;
+  }
+}
+
+.spell-desc-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .scrollOverflow {
