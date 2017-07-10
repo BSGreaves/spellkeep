@@ -66,8 +66,13 @@ html {
   font-weight: bold; }
 
 .scrollOverflow {
-  height: 82vh;
   overflow: scroll; }
+
+.vh82 {
+  height: 82vh; }
+
+.vh46 {
+  height: 46vh; }
 
 .btn-margin {
   margin: 0px 5px; }
@@ -108,7 +113,10 @@ html {
   border-radius: 5px; }
 
 .char-panel {
-  margin: 15px auto 0px auto; }
+  margin: 15px auto 0px auto;
+  max-width: 70%; }
+  .char-panel .panel-title {
+    font-weight: bold; }
 
 .vertical-align {
   display: flex;

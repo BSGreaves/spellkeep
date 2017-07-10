@@ -29,6 +29,7 @@ app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, Character
 		return Math.floor(8 + $scope.currChar.prof_bonus + (($scope.currChar.int - 10)/2));
 	};
 
+	//Modals
 	$scope.castSpellModal = function(spell) {
 	  let modalInstance = $uibModal.open({
 	    ariaLabelledBy: 'modal-title',
@@ -63,4 +64,19 @@ app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, Character
 	  }, function() {});
 	};
 
+	$scope.spellInfoModal = function(spellURL) {
+	  let modalInstance = $uibModal.open({
+	    ariaLabelledBy: 'modal-title',
+	    ariaDescribedBy: 'modal-body',
+	    templateUrl: '/partials/modals/spellinfo.html',
+	    controller: 'SpellInfoModalCtrl',
+	    resolve: {
+	      spellURL: function() {
+	        return spellURL;
+	      }
+	    }
+	  });
+
+	  modalInstance.result.then(function() {}, function() {});
+	};
 });

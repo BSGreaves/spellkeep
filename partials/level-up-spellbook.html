@@ -21,7 +21,7 @@
 </nav>
 <div class="row no-lr-margin">
 	<div class="col-xs-4">
-		<div class="scrollOverflow">
+		<div class="scrollOverflow vh82">
 		<div class="form-group">
     		<input type="text" class="form-control" ng-model="searchKnown" placeholder="Search...">
 	  	</div>
@@ -74,7 +74,7 @@
 				New Spells This Level:
 	  	</li>
 		</ul>
-		<div class="panel panel-default spell-desc-cont scrollOverflow no-b-margin">
+		<div class="panel panel-default spell-desc-cont scrollOverflow vh82 no-b-margin">
 			<div class="panel-heading">
 				<h3 class="panel-title text-center bold">{{spellDescription.name}}</h3>
 			</div>
@@ -85,7 +85,7 @@
 						<li class="list-group-item">Classes <span class="pull-right"><span ng-repeat="class in spellDescription.classes">{{class.name}}{{$last ? '' : ', '}}</span></span></li>
 					  <li class="list-group-item">Casting Time <span class="pull-right">{{spellDescription.casting_time}}</span></li>
 					  <li class="list-group-item">Range <span class="pull-right">{{spellDescription.range}}</span></li>
-					  <li class="list-group-item">Duration: <span class="pull-right">{{spellDescription.duration}}</span></li>
+					  <li class="list-group-item">Duration <span class="pull-right">{{spellDescription.duration}}</span></li>
 					  <li class="list-group-item">Ritual <span class="pull-right">{{spellDescription.ritual | toUppercase}}</span></li>
 					  <li class="list-group-item">Page <span class="pull-right">{{spellDescription.page | toUppercase}}</span></li>
 					  <li class="list-group-item">Concentration <span class="pull-right">{{spellDescription.concentration | toUppercase}}</span></li>
@@ -99,7 +99,7 @@
 		</div>
 	</div>
 	<div class="col-xs-4">
-		<div class="scrollOverflow">
+		<div class="scrollOverflow vh82">
 			<div class="form-group">
     		<input type="text" class="form-control" ng-model="searchIndex" placeholder="Search...">
 	  	</div>

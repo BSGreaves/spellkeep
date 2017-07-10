@@ -28,7 +28,7 @@
 				<div class="panel-heading">
 					<h3 class="panel-title text-center">{{currChar.charName}}</h3>
 				</div>
-				<div class="panel-body">
+				<div class="panel-body text-center">
 					<p>{{currChar.primaryClass}}</p>
 					<p>Level {{currChar.primaryClassLvl}}</p>
 					<p>Spell DC: {{calcSpellDC()}}</p>
@@ -52,7 +52,7 @@
 		</ul>
 	</div>
 	<div class="col-xs-4">
-		<div class="scrollOverflow">
+		<div class="scrollOverflow vh82">
 	  	<div class="form-group">
     		<input type="text" class="form-control" ng-model="preparedSearchIndex" placeholder="Search...">
 	  	</div>
@@ -93,6 +93,7 @@
         			{{spell.name}} <span class='pull-right'>Lvl {{spell.level}}</span>
       			</uib-accordion-heading>
 						<input class="btn btn-primary" type="button" value="Cast Spell" ng-click="castSpellModal(spell)">
+						<input class="btn btn-primary pull-right" type="button" value="More Info" ng-click="spellInfoModal(spell.url)">
 					</div>
 				</div>
 			</uib-accordion>
