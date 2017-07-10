@@ -1,0 +1,36 @@
+<div class="panel panel-default spell-desc-cont">
+	<div class="panel-heading" id="modal-title">
+		<h3 class="panel-title text-center bold">{{spellDescription.name}}</h3>
+	</div>
+	<div class="panel-body spell-desc-cont" id="modal-body">
+		<p class="spell-desc-header">Level {{spellDescription.level}}<span class="pull-right">{{spellDescription.school.name}}</span></p>
+		<div class="row">
+			<div class="col-xs-6">
+				<ul class="list-group">
+					<li class="list-group-item">Classes <span class="pull-right"><span ng-repeat="class in spellDescription.classes | limitTo: 3">{{class.name}}{{$last ? '' : ', '}}</span></span></li>
+				  <li class="list-group-item">Casting Time <span class="pull-right">{{spellDescription.casting_time}}</span></li>
+				  <li class="list-group-item">Range <span class="pull-right">{{spellDescription.range}}</span></li>
+				  <li class="list-group-item">Duration <span class="pull-right">{{spellDescription.duration}}</span></li>
+				</ul>
+			</div>
+			<div class="col-xs-6">
+				<ul class="list-group">
+				  <li class="list-group-item">Ritual <span class="pull-right">{{spellDescription.ritual | toUppercase}}</span></li>
+				  <li class="list-group-item">Page <span class="pull-right">{{spellDescription.page | toUppercase}}</span></li>
+				  <li class="list-group-item">Concentration <span class="pull-right">{{spellDescription.concentration | toUppercase}}</span></li>
+				  <li class="list-group-item">Components <span class="pull-right"><span ng-repeat="component in spellDescription.components">{{component}}{{$last ? '' : ', '}}</span></span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="scrollOverflow vh46">
+			<p ng-repeat="description in spellDescription.desc">{{description}}</p>
+			<p ng-if="spellDescription.higher_level" class="spell-desc-header">Higher Level:</p>
+			<p ng-if="spellDescription.higher_level" ng-repeat="description in spellDescription.higher_level">{{description}}</p>	
+		</div>
+	</div>
+	<div class="row">
+  	<div class="col-xs-12 text-center">
+			<input class="btn btn-primary" type="button" value="Close" ng-click="close()">
+  	</div>
+	</div>
+</div>

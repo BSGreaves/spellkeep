@@ -1,4 +1,4 @@
-app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, CharacterFactory, DnDAPIFactory, SpellbookFactory, SpellsKnownFactory) {
+app.controller("OverviewCtrl", function(ngToast, $uibModal, $rootScope, $scope, CharacterFactory, DnDAPIFactory, SpellbookFactory, SpellsKnownFactory) {
 
 	//Load currChar
 	$scope.currChar = {};
@@ -29,6 +29,7 @@ app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, Character
 		return Math.floor(8 + $scope.currChar.prof_bonus + (($scope.currChar.int - 10)/2));
 	};
 
+	//Modals
 	$scope.castSpellModal = function(spell) {
 	  let modalInstance = $uibModal.open({
 	    ariaLabelledBy: 'modal-title',
@@ -58,9 +59,30 @@ app.controller("OverviewCtrl", function($uibModal, $rootScope, $scope, Character
 	    SpellbookFactory.editSpellbook($scope.currSpellbook)
 	    .then((result => SpellbookFactory.getAllCharSpellbooks($scope.currChar.id)),
 	    	(error => console.log("Error in editSpellbook in OverviewCtrl", error)))
-	    .then(result => $scope.currSpellbook = result[0])
+	    .then(result => {
+	    	$scope.currSpellbook = result[0];
+	    	ngToast.create({
+  				className: 'info',
+  				content: `${spell.name} cast at Level ${selectedSpellSlot}!`
+				});
+	    })
   		.catch(error => console.log("Error in getAllCharSpellbooks in OverviewCtrl", error));
 	  }, function() {});
 	};
 
+	$scope.spellInfoModal = function(spellURL) {
+	  let modalInstance = $uibModal.open({
+	    ariaLabelledBy: 'modal-title',
+	    ariaDescribedBy: 'modal-body',
+	    templateUrl: '/partials/modals/spellinfo.html',
+	    controller: 'SpellInfoModalCtrl',
+	    resolve: {
+	      spellURL: function() {
+	        return spellURL;
+	      }
+	    }
+	  });
+
+	  modalInstance.result.then(function() {}, function() {});
+	};
 });
