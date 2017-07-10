@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-xs-6">
 				<ul class="list-group">
-					<li class="list-group-item">Classes <span class="pull-right"><span ng-repeat="class in spellDescription.classes">{{class.name}}{{$last ? '' : ', '}}</span></span></li>
+					<li class="list-group-item">Classes <span class="pull-right"><span ng-repeat="class in spellDescription.classes | limitTo: 3">{{class.name}}{{$last ? '' : ', '}}</span></span></li>
 				  <li class="list-group-item">Casting Time <span class="pull-right">{{spellDescription.casting_time}}</span></li>
 				  <li class="list-group-item">Range <span class="pull-right">{{spellDescription.range}}</span></li>
 				  <li class="list-group-item">Duration <span class="pull-right">{{spellDescription.duration}}</span></li>
