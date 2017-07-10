@@ -88,7 +88,10 @@
 	  	</div>
 			<uib-accordion close-others="true">
 				<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | filter: {prepared: true} | filter: preparedSearchIndex | filter: {level: preparedLevelFilter} | filter: {school: preparedSchoolFilter} | orderBy: ['level']">
-					<div uib-accordion-group class="panel-default" heading="{{spell.name}} - Lvl {{spell.level}}">
+					<div uib-accordion-group class="panel-default">
+						<uib-accordion-heading>
+        			{{spell.name}} <span class='pull-right'>Lvl {{spell.level}}</span>
+      			</uib-accordion-heading>
 						<input class="btn btn-primary" type="button" value="Cast Spell" ng-click="castSpellModal(spell)">
 					</div>
 				</div>
