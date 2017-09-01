@@ -4,11 +4,13 @@ SpellKeep
 A Dungeons and Dragons (5E D&D) spellbook and character manager
 
 ------
+![Project Image](https://user-images.githubusercontent.com/25022285/29954156-61ec445a-8e9b-11e7-94ec-009e67e4b596.png)
+
 Project Goals
 -----
 I've spent many nights with friends playing tabletop roleplaying games like D&D, rolling dice, calculating stats, and trying to remember whether the Fireball spell has a range of 100ft or 150ft. Next thing I know I'm digging through a 400-page reference book and comparing it to garbled notes from 3 months ago. There's got to be a better way, right?
 
-I built SpellKeep to streamline the experience and keep all that complex information right at my fingertips. My **primary goal** was to build an intuitive, seamless UI that didn't draw the user out of the social aspect of tabletop gaming, but drew them back in by speeding up the pace of play.
+I built SpellKeep to streamline the experience and keep all that complex information right at my fingertips. My **primary goal** was to learn AngularJS while building a functional app with an intuitive, seamless UI that didn't draw the user out of the social aspect of tabletop gaming, but drew them back in by speeding up the pace of play.
 
 Technologies
 ------------
