@@ -25,7 +25,7 @@ Working features
  - Create and level up characters (Wizards)
  - Track character statistics 
  - Expend spells slots and rest to restore them
- - Search and reference spell statistic
+ - Search and reference spell statistics
 
 Features in Development
 
