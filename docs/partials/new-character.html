@@ -1,0 +1,62 @@
+<nav class="navbar-default nav-bar">
+	<div class="row location-bar no-lr-margin vert-center-row">
+			<div class="col-xs-4 col-xs-offset-4 text-center vert-center-column">
+				<h3 class="location-label">New Character</h3>
+			</div>
+			<div class="col-xs-4 text-center margin-auto">
+				<input class="btn btn-primary" type="submit" value="Save New Character" ng-click="postNewCharacter()">
+			</div>
+	</div>
+	<div class="row desc-bar no-lr-margin vert-center-row">
+			<div class="col-xs-6 text-center vert-center-column">
+				<h4>Biography</h4>
+			</div>
+			<div class="col-xs-6 text-center vert-center-column">
+				<h4>Ability Scores</h4>
+			</div>
+	</div>
+</nav>
+<form class="row no-lr-margin">
+	<div class="col-xs-6">
+		<div class="col-xs-10 col-xs-offset-1">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Character Name" ng-model="newChar.charName" required>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Portrait URL" ng-model="newChar.imgUrl" required>
+			</div>
+			<select class="form-control" ng-model="newChar.primaryClass" required>
+    		<option selected disabled value="">-- Select Class --</option>
+				<option value="Wizard">Wizard</option>
+			</select>
+		</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="col-xs-10 col-xs-offset-1">
+			<div class="input-group ability-cont no-top-padding">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Strength</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.str">
+			</div>
+			<div class="input-group ability-cont">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Dexterity</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.dex">
+			</div>
+			<div class="input-group ability-cont">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Constitution</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.con">
+			</div>
+			<div class="input-group ability-cont">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Intelligence</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.int">
+			</div>
+			<div class="input-group ability-cont">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Wisdom</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.wis">
+			</div>
+			<div class="input-group ability-cont">
+		  	<span class="input-group-addon ability-label" id="basic-addon1">Charisma</span>
+			  <input type="text" class="form-control text-center" aria-describedby="basic-addon1" ng-model="newChar.cha">
+			</div>
+		</div>
+	</div>
+</form>
