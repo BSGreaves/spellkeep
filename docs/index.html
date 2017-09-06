@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SpellKeep</title>
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bilbo" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">		
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-toast/2.0.0/ngToast.min.css">
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-toast/2.0.0/ngToast-animations.css">
+		<link type="text/css" rel="stylesheet" href="./styles/main.css">
+	</head>
+	<body ng-app="SpellKeepApp">
+		<toast></toast>
+		<div ng-include="'partials/side-nav.html'"></div>
+		<main class="left-offset" ng-view>
+		</main>
+		<!-- FIREBASE -->
+		<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+		<!-- DEPENDENCIES -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.4/angular-sanitize.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-animate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.16/angular-filter.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ng-toast/2.0.0/ngToast.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.23.0/ramda.min.js"></script>
+		<!-- CONFIG -->
+		<script type="text/javascript" src="./javascripts/app.js"></script>
+		<script type="text/javascript" src="./javascripts/AppConfig.js"></script>
+		<script type="text/javascript" src="./javascripts/AppConstants.js"></script>
+		<!-- FACTORIES -->
+		<script type="text/javascript" src="./javascripts/factories/AuthFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/CharacterFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/SpellbookFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/DnDAPIFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/SpellIndexFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/SpellsKnownFactory.js"></script>
+		<script type="text/javascript" src="./javascripts/factories/UserFactory.js"></script>
+		<!-- CONTROLLERS -->
+		<script type="text/javascript" src="./javascripts/controllers/AuthCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/ChangeCharacterCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/CharacterViewCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/NewCharacterCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/OverviewCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/PreparedSpellsCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/SideNavCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/SpellbookCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/NewSpellbookCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/RestCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/LevelUpCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/LevelUpSpellbookCtrl.js"></script>
+		<!-- MODALS -->
+		<script type="text/javascript" src="./javascripts/controllers/modals/CastSpellModalCtrl.js"></script>
+		<script type="text/javascript" src="./javascripts/controllers/modals/SpellInfoModalCtrl.js"></script>
+		<!-- FILTERS -->
+		<script type="text/javascript" src="./javascripts/filters/spellExistsInAnotherArray.js"></script>
+		<script type="text/javascript" src="./javascripts/filters/toUppercase.js"></script>
+	</body>
+</html>

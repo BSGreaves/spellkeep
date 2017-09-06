@@ -1,0 +1,145 @@
+<nav class="navbar-default nav-bar">
+	<div class="row location-bar no-lr-margin vert-center-row">
+			<div class="col-xs-4 col-xs-offset-4 text-center vert-center-column">
+				<h3 class="location-label">Prepared Spells</h3>
+			</div>
+			<div class="col-xs-4 text-center margin-auto">
+				<input class="btn btn-primary" type="submit" value="Finish & Save" ng-click="switchToOverview()">
+			</div>
+	</div>
+	<div class="row desc-bar no-lr-margin vert-center-row">
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>Prepared</h4>
+			</div>
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>Description</h4>
+			</div>
+			<div class="col-xs-4 text-center vert-center-column">
+				<h4>In Spellbook</h4>
+			</div>
+	</div>
+</nav>
+<div class="row no-lr-margin">
+	<div class="col-xs-4">
+		<div class="scrollOverflow vh82">
+	  	<div class="form-group">
+    		<input type="text" class="form-control" ng-model="preparedSearchIndex" placeholder="Search...">
+	  	</div>
+			<div class="row no-lr-margin">
+	  		<div class="col-xs-6 no-lr-padding">
+	  			<select class="form-control" ng-model="preparedLevelFilter">
+        		<option selected value="">All Levels</option>
+  					<option value="0">Cantrips</option>
+  					<option value="1">Level 1</option>
+  					<option value="2">Level 2</option>
+  					<option value="3">Level 3</option>
+  					<option value="4">Level 4</option>
+  					<option value="5">Level 5</option>
+  					<option value="6">Level 6</option>
+  					<option value="7">Level 7</option>
+  					<option value="8">Level 8</option>
+  					<option value="9">Level 9</option>
+					</select>
+				</div>
+				<div class="col-xs-6 no-lr-padding">
+	  			<select class="form-control" ng-model="preparedSchoolFilter">
+        		<option selected value="">All Schools</option>
+  					<option value="Abjuration">Abjuration</option>
+  					<option value="Conjuration">Conjuration</option>
+  					<option value="Divination">Divination</option>
+  					<option value="Enchantment">Enchantment</option>
+  					<option value="Evocation">Evocation</option>
+  					<option value="Illusion">Illusion</option>
+  					<option value="Necromancy">Necromancy</option>
+  					<option value="Transmutation">Transmutation</option>
+					</select>
+				</div>
+	  	</div>
+			<uib-accordion close-others="true">
+			<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | filter: {prepared: true} | filter: preparedSearchIndex | filter: {level: preparedLevelFilter} | filter: {school: preparedSchoolFilter} | orderBy: ['level']">
+				<div uib-accordion-group class="panel-default">
+					<uib-accordion-heading>
+        		{{spell.name}} <span class='pull-right'>Lvl {{spell.level}}</span>
+      		</uib-accordion-heading>
+					<input class="btn btn-primary" type="button" value="Unprepare Spell" ng-click="unprepareSpell(spell); $event.preventDefault();">
+				</div>
+			</div>
+			</uib-accordion>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<div class="well">
+			Prepared Spells: {{numberPrepared}}/{{currChar.preparedSpellsLimit}}
+		</div>
+		<div class="panel panel-default spell-desc-cont scrollOverflow vh82 no-b-margin">
+			<div class="panel-heading">
+				<h3 class="panel-title text-center bold">{{spellDescription.name}}</h3>
+			</div>
+			<div class="panel-body spell-desc-cont">
+				<div ng-if="spellSelected">
+					<p class="spell-desc-header">Level {{spellDescription.level}}<span class="pull-right">{{spellDescription.school.name}}</span></p>
+					<ul class="list-group">
+						<li class="list-group-item">Classes <span class="pull-right"><span ng-repeat="class in spellDescription.classes">{{class.name}}{{$last ? '' : ', '}}</span></span></li>
+					  <li class="list-group-item">Casting Time <span class="pull-right">{{spellDescription.casting_time}}</span></li>
+					  <li class="list-group-item">Range <span class="pull-right">{{spellDescription.range}}</span></li>
+					  <li class="list-group-item">Duration <span class="pull-right">{{spellDescription.duration}}</span></li>
+					  <li class="list-group-item">Ritual <span class="pull-right">{{spellDescription.ritual | toUppercase}}</span></li>
+					  <li class="list-group-item">Page <span class="pull-right">{{spellDescription.page | toUppercase}}</span></li>
+					  <li class="list-group-item">Concentration <span class="pull-right">{{spellDescription.concentration | toUppercase}}</span></li>
+					  <li class="list-group-item">Components <span class="pull-right"><span ng-repeat="component in spellDescription.components">{{component}}{{$last ? '' : ', '}}</span></span></li>
+					</ul>
+					<p ng-repeat="description in spellDescription.desc">{{description}}</p>
+					<p ng-if="spellDescription.higher_level" class="spell-desc-header">Higher Level:</p>
+					<p ng-if="spellDescription.higher_level" ng-repeat="description in spellDescription.higher_level">{{description}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4">
+		<div class="scrollOverflow vh82">
+	  	<div class="form-group">
+    		<input type="text" class="form-control" ng-model="unpreparedSearchIndex" placeholder="Search...">
+	  	</div>
+	  	<div class="row no-lr-margin">
+	  		<div class="col-xs-6 no-lr-padding">
+	  			<select class="form-control" ng-model="unpreparedLevelFilter">
+        		<option selected value="">All Levels</option>
+  					<option value="0">Cantrips</option>
+  					<option value="1">Level 1</option>
+  					<option value="2">Level 2</option>
+  					<option value="3">Level 3</option>
+  					<option value="4">Level 4</option>
+  					<option value="5">Level 5</option>
+  					<option value="6">Level 6</option>
+  					<option value="7">Level 7</option>
+  					<option value="8">Level 8</option>
+  					<option value="9">Level 9</option>
+					</select>
+				</div>
+				<div class="col-xs-6 no-lr-padding">
+	  			<select class="form-control" ng-model="unpreparedSchoolFilter">
+        		<option selected value="">All Schools</option>
+  					<option value="Abjuration">Abjuration</option>
+  					<option value="Conjuration">Conjuration</option>
+  					<option value="Divination">Divination</option>
+  					<option value="Enchantment">Enchantment</option>
+  					<option value="Evocation">Evocation</option>
+  					<option value="Illusion">Illusion</option>
+  					<option value="Necromancy">Necromancy</option>
+  					<option value="Transmutation">Transmutation</option>
+					</select>
+				</div>
+	  	</div>
+			<uib-accordion close-others="true">
+				<div ng-click="setDescription(spell)" ng-repeat="spell in spellsKnown | filter: {prepared: false} | filter: unpreparedSearchIndex | filter: {level: unpreparedLevelFilter} | filter: {school: unpreparedSchoolFilter} | filter: currChar.primaryClass: class | orderBy: ['level']">
+					<div uib-accordion-group class="panel-default">
+						<uib-accordion-heading>
+        			{{spell.name}} <span class='pull-right'>Lvl {{spell.level}}</span>
+      			</uib-accordion-heading>
+						<input class="btn btn-primary" type="button" value="Prepare Spell" ng-click="prepareSpell(spell); $event.preventDefault();">
+					</div>
+				</div>
+			</uib-accordion>
+		</div>
+	</div>
+</div>
